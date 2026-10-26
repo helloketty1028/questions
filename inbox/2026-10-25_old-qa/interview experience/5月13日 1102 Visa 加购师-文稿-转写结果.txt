@@ -1,0 +1,155 @@
+﻿5月13日 11:02 Visa 加购师
+说话人1 00:00
+Hey, hi, morning.
+
+I will soon.
+说话人2 00:06
+Hi morning. Yeah, hi, recently. Morning. This is keegan from visa. How are you doing?
+说话人1 00:11
+I'm doing. Well, thank you. Glad to receive.
+说话人2 00:15
+your call. Likewise, a pleasure chatting with you today. I let me just do a bit. The recruiter from visa, i'm part of the technology. I like the same invasion, singapore, and having across our lead solutions architect role here at visa, right? So the purpose of today's call is ready to get to get annoying a little bit more about experience, the current aspirations and to share you a little bit more about what this role entails.
+
+If you have any questions along the way, please feel free to ask you in this call.
+
+So today's call is approximately around 25 minutes or so. So is that okay for you?
+说话人1 00:52
+It's okay.
+说话人2 00:54
+Thank you. All right, great. So before we move into the middle of accommodation, I was just wondering have you heard of these two copilot before by microsoft? Yes, sir. So I I agree, yeah. Yeah, sounds good. So here is that we actually use copilot to transcribe calls for most impulses only. In a couple of seconds I will start copilot and i'll ask you for your consent. All right, okay. Once again, let me just get them started.
+说话人1 01:26
+Okay. Let me introduce my experience first.
+说话人2 01:31
+Sorry, let's hold on. Once again. We wait for the track. This call is being transcribed, right? Call the transcription started. So we'll suggest again a consent again and hope you're comfortable for me to use copilot to transcribe the interview notes. And any part time if you are not, please do. Let me know. Yeah.
+说话人1 01:53
+Yeah.
+说话人2 01:56
+Okay, great, cool. So now when I got on that out, the way you can just do a very quick introduction on your end and share about your working interviews.
+说话人1 02:03
+Thank you. My name is wilson. I have 18 years of working experience. I worked for several biggest it companies in china, like baidu, sohu, and ren. Those companies. I also went through some startup companies. I work as the senior role to have these companies to went through a round, vcb round, and even v c round with vc I also tried entrepreneurship, but it didn't work out.
+
+I came back to corporate life. The turning point in my career was 2019. I was I was being approached by a singapore company's vv technology to start to build up their technical team in singapore. The the team. It's the team size is almost 100 people plus. That's how I came to singapore, but because of kobe 19, the companies I worked in singapore. They didn't do very well. Yeah. I was lucky and very happy when I received the offer from uob because uob is the biggest is one of the biggest bank in singapore. And I work as the tdm role. Tdm role means technical delivery manager.
+
+So during the past almost 4 years in, I have done many projects, such as cbpr plus and c 360. Cbpr plus means cross border payments. And reports. This project is to upgrade swift code from mt to imax. We make migrated the legacy system data to new system.
+
+Yeah. And and we need push the new safe code to the market. Yeah. And c three cst c three cst is the provider 360 ° data portfolio view for customer. And ii lead accd team to provide the data, analyze and calculate data result for the customer to review the final data port portfolio. We use the supreme bench, supreme boot cloud. There are big data tools. Yeah.
+说话人2 05:51
+This.
+说话人1 05:53
+is my currently a work experience. In ubi lead a technical team and to work with those stake stakeholders, such as risk management team and project manager team. And tcoetcoe means tester team a lot. And the other team to recall my past work experience, I I started as from java engineer and type manager and solution architect and tech director.
+
+Suddenly I got the cto role in some startup companies. Yes, this is my past experience. That's all thank you. D.
+说话人2 06:56
+so just want to divide a little bit into some of your, maybe do we plan to kind of rule? Having mentioned them? The vice president, you will be, all right, handling the cba cbpr plus program. I was wondering in terms of your most recent experience, are you coming like a developer or are you like a sufficient.
+说话人1 07:18
+architect?
+
+Good question. In this key in this? This team, cb per plus I lead acw application. In a bank, there's a lot of tech technical team. And a lot of application, I lead the cw application. It had a very key app in this project cbpr plus. And my role is to join the solution design, technical solution design. And this has with the requirements source team to get and return their requirements. And I discussed with solution architect team to make the technical solution, workflow, or solution architect, texture, design. I also use the agile development, progress and compliance standard to manage this team, to make the daily carry on the progress finally, deliver our technical outcome to each stakeholders.
+
+Yes. So if you ask me whether my work role like engineer or architect, I think part of it, architect had a more than 50 % is architect. Because I need I need work with the technical standard, technical design and code review. Yes, finally, results, delivery. And if production have any incidents, I will the first person to analysis, analyze, and resolve those online issue. We call it pvt this is my role. So I think I pray here I more like architect, but I have part of management role. Yeah.
+说话人2 09:55
+Right. How about in golden beach drive? You were a project manager slash architect back then as well, right? Will you like essentially more of an architect?
+说话人1 10:06
+Good question. Our team in this project, we have the separate project manager team and our team. Cw team is focused on c cwo requirements of cw function scope in this application, cw application scope. I my role, or my response responsibility is I support the requirements, discuss and this technical solution design, design to make the confirmation and decision.
+
+So, or I must know for as the tvtv and role, I must know the requirements and technical technical detail so that I can support our cw team, the technical outcome, either to this project, cbpr plus hold the project.
+
+I must know the architect, architect the work details. Yes. And I need to lead the technical team. I need to direct them to make the technical work, daily work, and to indicate their time code, the issue fix, work with them. So ii must have the architecture background and and architecture. The knowledge is and related the requirements as my background so that I can make work in this cbpr plus projects.
+说话人2 12:14
+God, it sounds good. And in terms of in, he may be explaining simple terms that what is a high, highly scalable system means to you. And you maybe just give an example of from the experience, when have you actually have to build a highly scalable or develop a highly scalable system?
+说话人1 12:34
+Okay. Let me think you mean in ub or in my past experience,
+说话人2 12:48
+which whichever you like, and we know whichever part of your career you have actually done or develop a highly scalable system.
+说话人1 12:56
+Good question. During my past. Work experience, I startup. I have many times to start up, hold the website, or hold the system for a for a company, but in ub I just lead the separate application I each everybody in a big bank, his responsibility and work scope. It have the limitation. So I take another example before you'll be. Okay. In baidu, ii please let me take two example. One is in baidu. Baidu, it is the biggest website it it company in china. Ii worked for an e commerce system to build up during my work experience. In baidu, we just start up the e e commerce product. For baidu, we assume the customer may be more than 100 million. And the high concurrency, maybe the high concurrency access, maybe modern 1 million.
+
+Our system must have. The scale is scalar ability and must have stable ability, make sure our system stable. We have the we have the hardware of enough hardware. So I work as the specialist in baidu. I work with the other architect to design the architecture. First is is the mvp is mvpimvp system design for this e commerce.
+
+I introduce the details for this architecture. So for the gateway side, we used and jigs as the gateway antiques cloud. That means in we include many level engines, first engines, if receive the highly request and six will navigate those requests, split dose request into different the nice level antiques and antiques. Just like this situation. And things will split the highly level or, sorry, highly volume request into the separate, smaller request, into the fine the soa open api services for those services. We use the docker. In china, we name it f eight. See the fa the tools. It is a management tools of dockers cluster. During those called dockers, we dockers, we all know it is aa marrow as a mayor of system.
+
+So we can build our services of open api services into the stalker. And if those services received more or high level request, volume request into those open api then we have monitor to fund this risk, a request risk. Then this monitor will trigger the k eight tools in increase or to add the x one nodes of docker nodes.
+
+So diet, this api can support the high level request better. And in the same time, we use the middle of platform to support different function for this e commerce e commerce platform. Then we must understood our ours speak sister must have the distribute transaction ability. This distribute transaction ability, not only based on our database cluster in china. We mostly used my circle db by circle database, the cluster to support bit, because it is open source database. We base it on the database. We cannot put the pressure on the into the database level. We must have the no circle. Db just like kafka, or readies. I like, read is because read is faster read and faster write.
+
+And although it not have the transaction character, but the readies can be the pre can to be The pre database or pre data store, a to a e commerce services. Every time, if we want to keep the data or keep the request per process with either pretend, either pretense, we must use the, sorry, readies to keep the data item ability. After that, if the request, you'd better to make the request, not a synchronized process. Deng, you can YouTube or the other mq tools. So that you you can the customer can get the better services or better chip in your e commerce website. Back the Kafka, we know the brokers, we can arrange different function to match the different brokers. And we have the Kafka brokers, q cluster after. And under those q we have the many kind of consumers among different components call e commerce, copper components, like payment, like user account, like the other order service, different components, services, sub services.
+
+Yeah, and to consume those Kafka queue messages, mq and after that, the under system level is we use the database agent. Database base, isn't? It means we can split those database, many studying and many partitions for database, so that we can magnitude different magnitude re rewrite or reread. Those data. If some data is read frequently, we can put the separate database space. If some data we need argue to history, he history database so that we can in future, maybe we can recall some issue or recall some other request for customer, then we can find the history data.
+
+Then. Most important thing is we must understood some data is you should story them into circle, how to say, release.
+
+And now database that means DB sorry, oracle, DB or my circle DB some data, you sooner story them into non circle DB just like arch base hai, du pu or some mongo DB because those data is big. It's huge data. You should story them into there. This is I take the example, sorry, I didn't. Maybe it didn't describe very well. That's all. Thank you.
+说话人2 24:03
+Good, thanks so much for sharing that. Cool. So I know we are a little bit coming to time, so I just want to ask one more question in terms of right now have in you will be right. Have you work on any attending AI project before?
+说话人1 24:19
+I like AI tool AI tools, open cloud and chat GBT and supreme AI. Spring AI is very useful framework in spring family. It can connect or use many a open like AI open the API services I to involve them into your framework.
+
+Aa also use the cloud of cloud code to drag you can use them to automatically to generate the necessary code and so that you no need to coding everything for your website. It can optimize my services, even. For example, you can make open cloud to your stocks. I also have buy and sell some stocks in my life. So.
+说话人2 25:46
+I understand.
+说话人1 25:48
+Yes, thank you.
+说话人2 25:50
+I'm so station here a little bit. So I just want to understand for yourself. Wilson. We know, I know you have been in Europe before a while, as you mentioned earlier, but what's the current motivation that you're looking for a new change at this moment?
+说话人1 26:05
+Byebye. Right now, as my introduce my currently, my current work is part of technical, part of and management work.
+
+And right now, I I'm searching for technical role, more architectural role so that I can with my previous experience, I I I want to find more like the architecture architect, sorry, architecture role. And also, II review about visa, visa, jdi know visa is very big payment, payment gateway or payment flow, the global website, gateway.
+
+I know it's a very good opportunity to let me to know about the financial or payment payment award more in Singapore. I come in Singapore. It means I want to focus on the financial or payment industry and visa is the is by the answer for me. So that I always worry about my future career, my career future. So I want I don't want to lose my competitors needs competitive needs.
+
+So I I want to be big company and a big roles like architect can can give me more opportunity to improve myself.
+
+And my express my it is right now if I come here.
+说话人2 28:24
+Okay, I see. And in terms of notice to you how long or notice you have to start, let's say you will be.
+说话人1 28:31
+right now is 2 months. But I I have many live days. I can reduce less than 1 month.
+说话人2 28:45
+You see? And in terms of immigration status, why do you require informal employment sponsorship on visa?
+说话人1 28:49
+I'm PR holder in Singapore.
+说话人2 28:53
+Okay? Okay, so you think about per right now? Sounds good, cool. And for salary expectations, why do you have a number in mind that you might be looking at?
+说话人1 29:03
+Let me see right now.
+
+I'm 14, 14,000.
+说话人2 29:11
+Ii.
+说话人1 29:14
+I my expectation is Between 14 to 15 is is.
+说话人2 29:21
+sure I see.
+说话人1 29:24
+because salary is not my first. My first think about condition to think about the future. Yeah.
+说话人2 29:34
+Right, I see, I understand. So in terms of questions, I really asked on the topic of posse, you really have any questions for me? Reason?
+说话人1 29:43
+Yeah, thank you. Give me the chance. So what's do you expedition on this role for those employees?
+说话人2 29:59
+Expectations, right? So this person here, I would say some of the key primary responsibilities will be one to develop the understanding of all applications across multiple teams and many things. Here at visa. Second thing will be to against central decision maker for a system of architecture, design standards as well as technology, text thing.
+
+The third thing will be to identify opportunities for architectural modernization as far as automation, using gen AI or even identity AI solutions to help improve productivity and client outcomes.
+
+So I would say these are the main areas that the team is looking to drive and the main responsibility for this rule itself. Okay. Cool.
+说话人1 30:43
+If possible. May I know the following interview flow? Or how many round? Jason like this? Thank you.
+说话人2 30:58
+The first three rounds will be technical rounds that you have to go through, and then the forefront will be the hiring manager and the hiring managers + 1. And then the last round will be without hrvp so that one will be more like a behavioral kind of question that will be asked.
+说话人1 31:14
+Okay, good. I don't have any other question and thank you so much. You give me this opportunity to discuss.
+说话人2 31:38
+Ignore it. What I would do is that I will share for our hiring team, give me a day or two. I'll come back to you. So what for the future next steps will be? So let's say we are if the team is in the procedure or in the next half interview, then i'll get in touch with you to share you a little bit more about what the next step should be.
+说话人1 31:57
+Sorry, thank you. Okay.
+说话人2 32:00
+Knowledge can I can contribute in, especially the team proceeds already make sure we did. I'll share you a little bit more about what the next round would look like. Yeah. Okay. Okay, cool. Thanks so much for your time. Wilson. I hope you have a good day. I'll speak to you soon.
+说话人1 32:17
+You too.
+说话人2 32:19
+Thank you. Bye,
+说话人1 32:21
+bye, bye.
+
+以上内容由AI生成，仅供参考

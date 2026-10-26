@@ -1,0 +1,259 @@
+﻿8月11日 13:12 SGX 高级工程师
+说话人1 00:00
+Hey, hello,
+说话人2 00:08
+let me see a little small, your voice, a little small. Sorry.
+说话人3 00:17
+For our.
+说话人2 00:18
+voice. And right now is better.
+说话人4 00:22
+So now you can hear us, right?
+说话人2 00:28
+I can.
+说话人4 00:30
+Thank you. So my name is rama. This is russell. Today. He will be speaking to you. Hi, russell, hi, rama, some of the production. First of all, just to let you know better to let us know you better, how about it? My name is manager are taking care of several initiatives soon as jack's, including what you see platform rebuilt, anything is still simulated, how we can straighten our technological unit in the company. I work with russell, basically, he is our senior engineer taking care of what you see platform.
+说话人2 01:15
+Okay, yeah.
+说话人4 01:18
+Yeah, so what about you?
+说话人2 01:21
+I'm wilson. I come from uobi have.
+说话人1 01:26
+a.
+说话人2 01:27
+18 19 works experience. I start up with the technical developer, engineer and big data engineer. Both roles begin and went through some chinese largest companies like baidu, sohu, and region.
+
+I worked as the technical leader, specialist, architect, architect, and direct technical director and project manager first role and right now,
+说话人1 02:17
+I.
+说话人2 02:18
+have been working is for singapore. I have been working almost 7 years and work for uvi already worked for, you'll be almost 4 years. So I worked at right now. I worked for, you'll be, I am working for you'll be as the tdm role. And with the vp two, the tdm means technical delivery manager. I lead a technical team and support this.
+
+the application, ccd applications, pdr applications, and cw application in a bank, a lot of applications team. I lead.
+说话人1 03:14
+the.
+说话人2 03:15
+few teams in a bank and support the project delivery work and technical reality realization work.
+
+So my work major for.
+
+the requirements, receive the requirements and make the technical design with the architect. Architect lead a team and lead our developer team to make the code.
+
+for our applications. After it, we.
+说话人1 04:03
+will.
+说话人2 04:04
+deliver and support when go through the sit uat sorry, sit and uat test period.
+
+And finally, we go live support the online some if have incidents, we have our three teams support first. But in the same time, if have anything urgent thing need our application team support, I I would be the first one to support the incidents fixing or its result. Yes. A this is my work. I work for you'll be support payment team like like the cross border payment and read the reports. I see.
+说话人4 04:54
+So basically you are still like hands on software engineer, right? So you are still touching on yourself like doing some tests or like, what is your actual day to day job?
+说话人2 05:08
+Good question.
+说话人1 05:11
+I.
+说话人2 05:12
+think half, because if I don't know the code details or the technical technology details, I cannot lead this team. I cannot support the project design solution design. I cannot do anything. So I think my made the most part of time is for to make the code review and made the major code code updates. If have code updates, I will this make the design, technical design. And the reality work, the coding work. We have the developer team to support. But every time, if they submit their prpr code, pri will make the code review. Yes.
+说话人4 06:10
+Okay, I see. So maybe you can just give us any example of what you did during last month year, which made you proud of.
+
+some kind of, I don't know, challenge that you face change, that you brought anything that's just coming to your mind, something that you're proud of, that you've done since january.
+说话人2 06:35
+might know whether your question is about.
+
+You want to know my technical work, the details, or all my deliver work and technical work, both the which one is your prefer, but.
+说话人4 06:52
+we share what you would like to share with us, what made you proud,
+说话人2 06:57
+maybe or understood which one is most good at all.
+
+Sorry, because I just back from the vacation. So answer your question will slowly. Let me think I just back from china, sorry.
+
+Because right now from my jd sorry, my cv you can see, I currently work for the cbpr plus project, support this project. And in this project, I lead the cew team. Project means cross border payment and reports. This is for upgrade the iso 222, the code for our bank upgrade. I think I makes a good upgrade or make the advancement work is right now in our bank, we have many legacy,
+
+like the data, like the system.
+说话人1 08:18
+And.
+说话人2 08:19
+we also make the developer and build the new system to support the payment, upgrade payment code up, upgrade to support mas requirements.
+说话人1 08:37
+What I.
+说话人2 08:40
+I do, what I did for this thing, I think I I will be proud of. It is before this work, I make the research of the iso called upgrade thing.
+
+Although the team, what I lead it, it is not hold bank, bank system, but I research all the payment workflow not not only outset outs outward, but also inward. How could.
+说话人1 09:20
+the.
+说话人2 09:22
+payment code updates change? How to make the reports? What's the trigger event management flow? This thing and base it on this flow. I I provide us.
+说话人1 09:38
+some.
+说话人2 09:40
+ai ai ai agent, some.
+
+suggestion bar for my boss.
+
+This thing, my boss, because last year my boss told me this thing, this advice, this suggestion is good, but last year cannot do it immediately.
+
+But what I researched and what I made the reports, I I I have confidently to provide all what can give the best budget reduce? And what can what can enlarge or increase our work, work efficiency?
+
+And this thing I also for this project, this is also what I did. Yes, bit, because I think not only in ub in future, in the same time in the mean. Meanwhile, the dbs aobaob means american bank. The other bank also do the same same ai work as same ai research,
+
+very urgently. Ii what I as far as I know. So this year.
+说话人1 11:19
+from the.
+说话人2 11:21
+june before june, from may on. We already in our department, we already make the raised a new team for this ai ii work to cover all those things. And I also, ii am also the one of this team to support. And right now ai flow, I also made some cold and to make some research and work with work for this team sometimes.
+
+And my boss also think I can I I I would like to learn new technology. I would like to receive or retrieve the new things on my work. This is my boss feedback for me, for my performance.
+说话人3 12:23
+understood. I think iii don't see you. I see that you have an entire night identify the ways to improve which your boss has mentioned, and also at a value true trying to do the project for the so public itself. I wanted to ask, maybe deep typing a little, right?
+
+So, so for the past 1 year, right? Could you just probably speak of how hands on? Are you with the implementation? Which part of the implementation you have been in? Which part you use ai and which part you do it yourself?
+说话人2 13:00
+Some court your question includes some similar, okay? The first, let me answer questions, 1 by 1. The first question what I did for in the past year, what I did details, I lead this team to to build and realize the new system for cross border payments.
+说话人3 13:32
+in europe to.
+说话人2 13:33
+realize two thing.
+
+One is the iso code agree, ft to mx the first thing, pen georgia one two and pace pack the other code, upgrade this one thing. Second is, sorry, the payment data migration, the whole thing. The payment data migration also.
+
+include many, many data format transfer and some how to support the two system, support the user payment requirements, a payment request. Yes, in the stable requirements of stable environment, how to build this environment? Yes. This is what I did in the past 1 year for my system. Yes. Second thing for ai what I research ai ii for our payment system minus api and my knee workflow is repair all the same more or less, nothing as same.
+
+I think aai isn't ai tools and to generate those repeat code and to packing june package, those maven to build to support the cicd workflow. And for data g unit coding and.
+
+sauna cube and very cold report, very cold test. We all sorry, a a not a very cold test, sound cube, we can also use aia center to package and all involved.
+
+The third party test tools into our system automatically. Yes.
+说话人3 16:04
+Could I just ask? Let me split the two parts, right? Let me talk about the vibration part. Could I ask you on the migration? Are you migrating from bend down to bend down? Or are you migrating from bend down to in house? Or what is the set out? Right?
+说话人2 16:22
+You means the migrate flow or migrate part. Sorry,
+说话人3 16:31
+I think you mentioned something about migrating the data, right? Yes. Like where about how the is it from that not to vendor or vendor to in house? Or why was there a day for migration?
+说话人2 16:43
+Okay. Make recent data include first thing is the user account, you user like a company, group data, company data, and company role, user role, user. Under this company. One user can belong to a different group, and each group have different companies. Those is the user data and user role, the permission data and the other is payment data. Payment data like single tp above tp and, sorry, single telegraph transfer. And bulk telegraph. We call it the single tp and bulk tp yes,
+
+on those the major li is two parts of data.
+说话人3 17:56
+Yes. And what what was the technical part that was involved? What was the technical part that was involved? So like, I don't know like that. You have to build a regression suite. Was it just a data copy of case? Like how technical, what's the whole project?
+说话人2 18:14
+Normally, we have a let me describe how to detroit it clearly on a we call it new system. B is old system. Every time we will submit a aaa user request list into a system. And a system will when go through the auditor to approve after that. Then this we can download the the request sell into.
+
+jason format data or xm ml format data or the other tst format data after we download those data file into the different kind of file. Then we send it to the send to the b old c old system by the cd server.
+
+We send this file to c ds around the cd The b system will monitor this CD server path, and they will retrieve those data. And they will all.
+
+when go through some different filter and condition process, work, those things, there's a workflow. They will base it on the request and they will generate do dose data set and insert into a temp database table. And David, after it, then they can download those data and send back to new system by the CD server and the new system.
+说话人1 20:41
+Will.
+说话人2 20:43
+after receive those data, they will check this data whether the user account ID is valid, whether some user or some payment data is valid, they will based on the other application application.
+
+For example, remittance application or user account application, the new system will check one by one. After check those data done, they will retrieve those valid data and insert into the new system and send back those invalid data to all the system for further checking. During this work. We have, I think the technology we used can came camel for the eepi frame of framework towards a service framework, we use camel and spring boot.
+
+In uob we have ourselves technical framework is ufw basically is based on the.
+
+spring from a spring boot framework, and.
+
+Java, Java, jpk.
+
+and we also how to say because this flow, or we also use the os two for API security tracking.
+说话人1 22:35
+And.
+说话人2 22:37
+we used for database, we use the oracle.
+说话人1 22:43
+And.
+说话人2 22:47
+how to say, because our in database, we use the database, different script, sorry. We use the supreme bench to execute the job work. Yes, and.
+说话人1 23:11
+la ma de, la, la ma.
+说话人4 23:16
+But that's okay. Ii.
+说话人3 23:18
+have a good understanding of like, how's your floor should be early? I probably must turn to that, right?
+说话人4 23:26
+Okay, yeah. Actually, I want the collective Information that I wanted. So now it's your time to ask us any questions.
+说话人2 23:36
+as far as what I get. This EMAIL is this role is senior technical engineer, is it?
+说话人4 23:47
+So, man,
+说话人2 23:50
+yeah, may I know what's this role work? And what's your expectation on this role?
+说话人4 23:58
+Industry is changing quite a lot due to AI basically, what we can see is different groups becoming closer to each other.
+
+It means that senior engineer, even though you are like senior software engineer, which is your like title, we still expect that guy will be able to do some a little bit of product work, behave as a product to be able to clarify requirements, for example, that should be able to behave a little bit like pv so being able to come up with acceptance criteria, some user stories for tests.
+
+Yeah, this guy should also be able to behave a little bit like security engineer to make sure that all his deliverable pipeline are getting properly scanned. And so likely production do not have a lot of abilities. So we see future as roles maybe eventually will be getting merged into one like product engineer. But at this stage, at least for senior people, you should have like wide horizon. You should know how product owner, what kind of what product order is doing, what kind of what you is doing and being able to breach all the plots together.
+说话人2 25:17
+So, okay,
+
+from my understanding, from your speaking, my understanding is more like, not only can coding, can do the hands on thing, but also can build the the cidcd workflow and can build the develop environment to support this technical team. Is it?
+说话人4 25:48
+Yes, in a way, you should know what I think that is interested in quoting anymore, because quoting is done by AI right? Review how you review whatever AI produced and how you make AI do, but I do something again, which will be you. But the quality was suitable, their linings requirements, which means that you actually need to keep in mind like product perspective, what are requirements? What do you want to achieve? You need to keep in mind like qe handle, like how exactly whatever your AI produce should be tested, agree, agreed, mind, non functional requirement, because even when they are produced something, and even if all your tests are green, maybe it's too slow.
+
+For example, maybe it's like, I don't know, single thread processing, and like hundred users cannot be processed at the same time. Kind of not functional perspective, something that you need to keep in mind as.
+说话人2 26:53
+well understood. Honestly, from my my past works work experience, not only hands on coding work experience, but also the architecture. Architecture experience, especially high concurrent, high access concurrency.
+
+Architect architecture include some Kafka think of non sink, the architecture and readies and ready cluster and oracle different release now and non release now, database mango and as base and hi, one, the and cooperate docker.
+
+All those things I experience. A lot of. So maybe some technology technology I didn't.
+说话人1 27:56
+refer.
+说话人2 27:57
+in this meeting, but it not instead of not means. Ii don't know that. I just want to say that. Yes.
+说话人4 28:07
+Okay. Any one last question from you?
+说话人2 28:13
+Okay?
+
+I'm very interested in our igi igh come company. And I want to know if possible how many round of interview for the for this role if possible.
+说话人4 28:32
+Typically we have 4 rounds. So this is just one, then to power face to face discussion number of things like a deeper technical round where you will be expected to do some white boarding. Like draw some architectural diagram and things like that.
+
+After that, they turn around last round with our indeed like managing director,
+说话人1 28:58
+just.
+说话人4 28:59
+to get better.
+说话人2 29:00
+your I just want to know of have one question is, what's the culture in in ich because different country company have different culture workouts for.
+
+And what's the team player?
+
+Do you like? First favorite,
+说话人4 29:31
+a good question. Object wise, I would say, like really in a way it depends on team. But so what we are trying to achieve here is to have a culture where people not afraid to try something new and feel fast rather than sticking to some 10 year old guidelines.
+
+That's things not to everything and limit space for innovations. That is what we are trying to transform. And that's why basically we are having a few more people who will help us in this journey.
+说话人2 30:07
+Ii don't have the other course.
+
+Okay.
+说话人4 30:15
+Okay, good. Then thank you for your time, Wilson. We'll be in touch with you. We are doing this prescreening grounds, probably for the next 2 weeks or something like that. And then we will be conducting a short list of people. It's okay. Ask them to come to our office for an extra may know,
+说话人2 30:37
+sorry. Could you let me know? May I have the nest for this interview?
+说话人4 30:47
+My favorite alternative?
+说话人2 30:49
+May I have the next round interview for this role?
+说话人4 30:54
+It will depend on this round, basically, right? We speak to you. After that. We will have the briefing session with us. So after that, we will have sessions beside the law. There are other people for prescription and send you a short list. So at the moment, I cannot give you, we haven't yet spoken to other people.
+说话人2 31:14
+Sorry, for my question. Yeah.
+说话人4 31:17
+Sorry, no worries. I would also ask that.
+说话人2 31:20
+Okay, thank you.
+说话人4 31:25
+Thank you for your time. Bye bye, bye, bye.
+说话人2 31:30
+Hey, thank you.
+
+以上内容由AI生成，仅供参考

@@ -1,0 +1,273 @@
+﻿6月18日 14:58 B1录音
+说话人1 00:00
+Hey, i'm good. So.
+说话人2 01:17
+you want to hear me clearly.
+说话人1 01:19
+I I right now i'm working for uv so right? It's working time. So i'm in office.
+说话人2 01:30
+Right?
+说话人1 01:31
+Just nice to meet you.
+说话人2 01:34
+Then we can get started. Nice to meet you too. Thank you. Okay, so you are able to hear me. Okay, right?
+说话人1 01:44
+Yes, very clearly.
+说话人2 01:47
+All right, that's good. So maybe let's start with the last project right at the united overseas bank, like, what is your role responsibility? What i've been working on?
+说话人1 01:59
+Okay. Right now I working for ub and I have been here almost 4 years. Let me introduce be focus on, you'll be first in ubi work at the tdn tdn means technical delivery manager, and I lead a technical team. I support many payment projects. So this applicant team, I need to work with the each stakeholders and lead and make the technical design.
+
+Each time one project start, begin, I will join the tagc the start meeting. I need to work with the architect team to make technical design or solution design. Second is, I know, sorry, first, I need to make clear the requirements. So I must work with fba I or I say, team, its requirements design team, solution design team, I need to discuss with them. Make clear what's the requirements and ask them to provide the user story? First? Second, I need to work with the architect team to give the solution design, but based on all those use of story, what I need it architect team help is based on the currently the ub the technical architecture. I need them to provide his idea whether or not my solution design is. It makes sense of whether or not the performance will be impacted by anything or some conference complaints, some factors, this second thing.
+
+The third is I I need this technical team. Most people come from vendor. I need to give them the budget. Each time the project need a budget for each application, I need provide the budget package and to send off this contract with them and ask for the related people number, the finally is to deliver all those technical outcome to technical team. Satuat and finally go production. And although it go deliver to products and I need to deliver to our three team, our three team is supported online issue or online incidents. I must teach them, what's the new updates, new cr new technical updates, so that they can understood how to support those new requirements in the production environment.
+
+And finally, I need to also deliver to our treaty, but the online incidents, risk and need quickly resolved the arbitrary team. If have some issue or need our technical team to code updates, I need to be the first person to support this thing. My detail work include the code review less time because I need a lot of management work. Just like I introduce before. So I need I cannot have much time to make the hands on coding. I must honestly tell you. So this is currently my work situation. And during my I my work level is vp two in uob and during my past 4 years, I understood more about the payment projects and the security standard complaints. And right now, this project teach me more. I learn more. This is payment cross border payments and reports. My data project major touch. It is the major per goal is to update the swiss code standard from mt to mx and we need migrate the data from legacy system to new system.
+
+This is what I did. My application. Finally, I will say my application name is cewcw means customer entitlement and requirement and reports it, means we need initial. We need to initialize the payments, transaction, payments, data, and to taking all those payments history from start to end, to report its status updates to customer each customer. This I what I did, sorry, give me 1 minute to introduce my, in addition, I outside of ubi work as the technical consultant for a that financial company just they make the online stock trading.
+
+Business does the online system just like the how to say aaainook can tell you to tell you training that this is what I want to say. I not only know the payments, java or spring framework, spring. The framework is a big family, include the boot patch, spring batch, the spring opposite spark. I also know that is an another thing. I know the micro service architecture, I can manage many. Before you'll be, I also many build ups. Many system can support high concurrency access request. This is what I did. I good at this java family, also have the python language experience. So that's all this is what I want to say. Sorry, aa little long time. Sorry, no,
+说话人2 09:31
+that's fine. What was the architecture? What is the architecture of the application like this payment application?
+说话人1 09:39
+In the next right now, the architectures is we just use micro service says the internal the internal system is we use the spring boot, ai open api the web services, we use the camel to a kind of framework to manage the internal system, each other to access and of for the gateway, we use s file to to work as the gateway and to connect each different area system to connect.
+
+And we have the different layers, security layer, this cwapa because it is to initialize the transaction payments transaction. So this api is tier one. It means most important, api and we have also a tier two, tier three, because this is internally each api assess each other. That means tier two and tier three for high level access concurrency. This pressure, we use fl to support. And may if the access too big, the volume too huge, then we can use fl to reduce the access of managing the access sites.
+
+We if you ask me what's architecture? I think it's spring boot plus camel and database. We use oracle. We use the oracle and the material, materialize the view to reduce the query as to our query ten and waiting time. And we use the partition like the database partition to reduce the each inquiry scope.
+
+That's all.
+说话人2 12:16
+So do you use any like, how is the communication between the micro services? How do micro services communicate with each other?
+说话人1 12:28
+Internal, these services, camel, camel camel. We use the camel just like spring family. Previously before you will be, I used the spring. Spring have the services, can spring? How to say? Let me see the camel hardly use the camel framework. It have the client and server the two roles client. If you use a client story, all those server role services, ip list, so that they can understood, they can know access who with role with services. And load balance also located in the club set. But currently I want to say one thing. Currently we didn't optimize. One thing is because if some services stop, we cannot quickly update this ip list services, ip list. So this is one thing. But normally if service is done, we we can make sure quickly held backup services to instead of the down services so that the chemical lamp can access, each service is successful.
+
+Second thing is not only be, we need to make sure each access successful. We must make sure each success, the average waiting time is sorted, is sort shortest. We make sure the load balance algorithm is, they can they can story the heartbeat. If the heartbeat is too long time, then we will reduce the access frequency. And if some services can consume and react fast, then they will increase the access frequency. That's it, just like this. And before you will be, I used to, I also used the spring framework, give the enough each row or each tools for high concurrency architecture.
+
+If you need me to introduce, I I can say that, yeah,
+说话人2 15:19
+we mentioned where you improve the latency. What did you do to improve the latency? What was the issue? How did you solve it?
+说话人1 15:29
+Okay. Understood if you, but architecture we must understood which kind of access, which kind of access the the trip access trip need, think, react, which access trip need the sink plus? I think the access. So normally is a quickly read reply, the request, we use the think and we need to kafka or need readies to reduce the access time. How to use it? Because just like if we make a order payment, how to say, I a a I take the soapy or like that example, the e commerce tree is services.
+
+For example, I take, for example, if a payment, if a user send a request to a book, a new order, request to system, since the system will receive this request, then send make the previously the pre prepared the data, pre datas task for and send it to kafka.
+
+Kafka will us story this message in the certain q some q one, q and in this q one, we have the, I think, process in this, it will reduce the user waiting time.
+
+In the consumer from the kafka, consumer said, they can process all this data need to to check whether database have the available or goods or not, or they can searching the readies first.
+
+And then to update the database, this all the method, all the ways to reduce user, user feeling, to feeling or reduce this architecture, the reaction the time, average time. This is what I want to say.
+说话人2 18:10
+So kafka, right? So are you like, let's say there is a kafka topping, right? There are messages in it. So I have two services. I want to read the messages concurrently. I multi service can read the messages from the topic. How would you set up those services like consumer services?
+说话人1 18:36
+Both and let me understood your question on you means if one kafka have two consumers, right?
+说话人2 18:45
+22 consumers to save services, 11 topic, right? Got a one topic.
+说话人1 18:54
+Your persons, if two consumers, then how could decide which consumer will can consume this message? Right?
+说话人2 19:09
+So let's say both can consume the message and process badly.
+说话人1 19:20
+Ii know this thing. Let me see, because in kafka, if one message is received by some by one consumer, for example, consumer a then consumer b will not consume this message. It will mark this data how to decide many ways. For example, we can set a parameter or set a field in radius. I for example, take one way. If this message sent to a consumer a first, then consumer a will mark. This message was received or was consuming by consumer a then market this data to radius. Then if consumer b want to read this mess, this message, firstly use kafka, I can configure or set up to reduce this thing.
+
+Second, if some consumer received This message, then this consumer b must track this message, whether or not what processing by the other customer. So they must read the radius to check this message status. The second thing, the third thing is, sorry, that that word, the english name is should be everything, should be one, one figure how to say they have one id can I dedicate this thing? Is only one are among all those system. How to say that? I I forgot this name. It means each message must have the only one identity id if customer a process it, then we we must prevent to process some message repeatedly. We must have the the unit how to say. And they have the one id to mark this message is whether previously they already reduce, processed or not so that we can prevent to process. This was the same data or the same message. Repeatedly. This I want to say,
+说话人2 22:29
+and like, what are the some of the important consumer configuration properties that we should be aware of?
+说话人1 22:37
+Consumer can,
+说话人2 22:43
+consumer can set up some cough coefficient properties, right? Which are like important ones. Consumer should be aware.
+说话人1 22:58
+because kafka, the kappa, kafka framework, it include many brokers. Its broker include many the topic queue, that topic queue. Maybe among different broker, it can be make sense. But if some disk, you, if some message was consume success for them, then that the message will will change to the other queue, which is consume done queue, message queue.
+
+And I forgot this can configure or set up. Just because previously, I remember I set up this kafka some years ago. So I forgot this, that it seems sorry,
+说话人2 23:53
+that's fine. So I think if you are like working, mostly, there is done may way back, then it's all right. So, sorry.
+说话人1 24:03
+Sorry, because only one thing, because in you'll be our have separate team to manage this thing. So a long time I didn't do that. Sorry.
+说话人2 24:16
+So how did you use like distributed caching that you meant mentioned? That is.
+说话人1 24:22
+this distribute the cash, right?
+说话人2 24:26
+Yeah, so can you talk about more like, what's the use case for using relatives?
+说话人1 24:33
+Interesting, good person. That means your person is to describe the distribute cash a in this architecture. Normally I use the radius. But this already is only one way. You can use mango db or use other tools just before database. You can have this distribute cache layer to prove to reduce the database access times I used radius cloud.
+
+And normally, if use the radius, you must have the distribute id so that you can understood which your which the data you need to access is located, which read this node.
+
+And normally, we have the some some calculate way if this cloud data. It's a 66 data of some tree data. I want to say, I want to build up the radius cloud with the circle structure. Each if we remove one node or item, one node in this read disclosed, we have some calculate way to mark off this data, located by which node I give you support example.
+
+For example, these radius you miss all have the tree node. We have ten ten data. Ii know from xi xi method on some method, I must make sure one method to locate all those data. Data location. If one data come, then I will calculate this highest value. And based on the highest value, I will decide of this trade node. I they use the highest value. This is 99 should be the 00 should be the first node. Second, like this way to in inside different node, ready? Slow. Second is the data. If the new node come, register node, come, then I will read real or locate the data set to based on the same hai xi hai s method to locate all those things. And if I need to remove one data, okay? Basically, based on this thing, I use the tree data, but this radius node data, I need to allocate the other side that I can understood all those data radius data, maintain all the data set.
+
+Second thing, very important, I want to say, if because this is registered a year, it not the database of the year. So we must know or understand the database, the whole set, whole the database set is located in database. If some data cannot search from radius, it's okay. We just search the database. And back to data in the way I used my cat. Previously, I used my cat to manage the radius side and distribute transaction.
+
+Also, I talk about distribute the data transaction. We must understood all this radius. And the database have the transaction, but database. Normally, we have a database cloud. Data not only located on one database. It's a database cloud. The distribute transaction must make sure the autumn per autumn purpose. So we must make sure how to make sure the different database know the successful or not successful, we cannot. But we have if the one transaction, sorry, have some data transaction didn't dnt make it successful, then we can put the rest data process steps into the another queue so that we can try sometimes to complete the rest steps to on the database. This is what I did. Previous li, so diet it, iii.
+
+This is finally consistency. Would I make sure? Yeah,
+说话人2 30:36
+ui. So currently, do you do hands on coding as well? Or it's more like managing the team, talking to stakeholders? Do you get time to do coding or more structure time goes into managing giving requirements to team, making sure that everything is fine?
+说话人1 30:56
+Good person, because work is not whole my life out of work time. I will do myself thing. For example, I I aii build up aa spring, ai architecture. Also from my local environment and aws cloud. And so I need to write down some necessary code, use the python or java language. So this I what I want to say, I a never stopped the code in her hands on code ing is ozoin my current role, I no need hands on coding, but I like code. So I like to express my creative, some opportunity. This is, so I am you coding right now? Okay?
+说话人2 32:04
+How do you test your applications and deploy in production?
+说话人1 32:10
+We have cicd we use sound cube, sound cube to test automatically to test our code quality. Some we have the pen test to check the complaints for my code and risk.
+
+And during the cicd process, if some deploys, deploying issue, block my currency, we can make sure to update and resend this, re sorry, retriever this cicb process in 10 or 20 minutes to fix that.
+
+And during the this is ci and cd we have the how to say this is we name it, alden, alden server, all those deploy deployed application services. We must deployed to evidence server. First is it is the first stop. And in this side, we need to track and pack compare the different words and code words. And whether is it is what we want. But this in comparison step is automatically. And after that, we can receive the report. And after the report is is successful, then we can send it to production. In during impression, we need have some developed people to track or did this deliver deep, how to say this deliver from elden server to product server, whether it it is already done. If it is done, we can trigger all those services, and we need to trigger our jobs.
+
+Related jobs, m ctrl m jobs just like it is based on spring batch, spring batch. We raise some payment bench, bench file or bunch data process or some necessary monitor monitor thing.
+
+So they say what I want to say. There's acicd process.
+说话人2 35:02
+Do you have qa team? Or do you do or business is involved? You have qa.
+说话人1 35:08
+team. We have sit and uat uat team, sit team, v we need to deliver all those youth story. If we complete the coding done, then we need, we have the internally our my application. We have internally tester team. We need to go open through the internally test.
+
+After that we deliver those uses story to sit and sit will base it on the user story status to execute the related you test case. Those type of those test case with some time with already to start use the generator ai to generate the repeat for test case. Yes, after the sit tested, then we can deliver to uat uat because we have different country. This is another thing leave it for uat team. We need to deploy, we use the cicd % to deploy the uat server, because uat server already have very security protect, and you need to access some route authority and the root user to execute the access of necessary service startup or stop.
+
+So all those money monitor, we have ourselves the splunk tools. I held all those from sit uat and production the permission to monitor my application running logs.
+
+So from ii familiar I good at the splunk tool after uat exactly that uat leader will set send off email. So that based on this send off email, we can apply for go live. During before, go live. We need when go through the cci cci meeting, cci team is managing. The production is seen. So if you need go live, you must go through this meeting and get his approval this thing.
+
+And second thing is, before go live, we met very much froze our code release branch. How to manage the release branch we have ourselves. The strategy is not not so senior security, just every time we must use a master branch to go land for uat and sit environment, mapping the different release branch. For our country, for our team, we have many one cw needs to support different projects. We have different release branch.
+
+So if we want to deliver to you, I say, sorry to the products and environment, we must to merge different country, different project, the release branch successful to master so that we can deliver. But we have some challenge recently. We need to result this time struggle at this thing.
+说话人2 38:55
+Do you think out of time? But if you're i'll just do quick questions.
+说话人1 39:01
+Okay?
+说话人2 39:05
+Lot of things, right? We can't test annuity because we don't have the setup, all the downstream applications connected to the environment. So only way for us do is to test in broad. So how would you like tackle this scenario like deployment in abroad? So some things we get a little test in abroad. How do you tackle this? Minimize it is.
+说话人1 39:38
+fraud.
+
+You mean security, security issuers a lot,
+说话人2 39:47
+not security issue like some functionality that we can't test annuity, because we don't have all the How much in the applications using our data connected immunity environment or set up in unity environment? Like robots different in unity. We don't have same reference data, annuity environment of production, quality, data, annuity environment to products and tests. So there are some great ideas which we have to testing probably regard test annuity. So how would you, we are test that thing in production, but like minimal risk to the system were causing production outreach.
+说话人1 40:29
+We have the separate environment. We name it bau environment. This environment have the products and data, the same data like products.
+说话人2 40:42
+We haven't been jp morgan, at least in our team. We don't have. So that's one challenge. It's difficult to have same data because it's transaction data. So we don't have that. So now we need to deploy broad and test that and also make sure that there isn't and impacts what strategies we can do to basically test and minimize the impact rate so that we think our code is wrong.
+
+It can cause some issues, a
+说话人1 41:23
+if some situation or some data cannot happen in uat then how to test it?
+
+We my answer is to use the I had generated ai sorry. Previously, I used the generator ai to generate those data what I definite. Or sometimes we can call them, you said, in jp morgan cannot copy from production data. Yes, but let me think, because your question will be, yes, also the same challenge from my local previous sorry. Currently, we have the products and user, business user.
+
+So if we go live, I just say that maybe not your answer, your question answer. If we have new function or new requirements go live, then then our business user will make the lvlv means business online. But it is. So they will test all those requirements related test case. Yes. If some in production, in environment, some situation cannot happen in the other environment. It should be marked in user story. Is it? If it is, it could be marked in user story nv, cn cpu cc meeting of ac, sorry, some fake data. In our test environment, whatever satnuat must have dos data prepared data. So that test case test must make the special test test for those situation.
+
+So like you said, ii I until now the 4 year I didn't experience. I didn't face face this thing. Maybe you can tip me if you face. Yeah.
+说话人2 44:14
+We have like some red rule. Blue green deployment deploy in one data center, enable it for certain users, enable it for certain time, and have a quick run back plan. If things go wrong, have a feature flag, enable feature flag on one instance or one host and ask user to validate monitor, have those things. So so we have, I.
+说话人1 44:44
+maybe you talk about make sense. Yes, yeah.
+说话人2 44:50
+What are some of the I strategies? So we have like hot pot environment, active, passive. So doing passive first, make sure passive is working fine. After business options, that's what they've asked them to really need. And then a lot of strategies who are corrupt because we don't have like that. Same environment. It's difficult. There are so many systems involved. Everyone connected to same environment there. We don't have.
+说话人1 45:21
+that some I.
+
+if this is, maybe we can pre cast those thing or maybe this is very possible to happen in future.
+
+Then we can, after this thing go live, we can prepare a team or prepare some roles to make the special research in online environment. We can send back those risk situation and ask requirements team to prepare the solution on tag team to prepare the solution. Yeah, I think it should be not only one team can resolve all those things. From different team have different perspective method or perspective way to resolve this. I just start this direction. Sorry. Do you.
+说话人2 46:31
+do you get involved in like production support as well?
+说话人1 46:36
+Because products previously I owe almost every month received a present incident. Call, sorry, this is not a good thing. It's positive thing. But what has the lead in this team? I should be the first person, and because this application is not the new application. So its the old applications have many old old function caused the new issues I have to support.
+
+I I can do any anything if my work can help this team or can help this application, I can accept any roles. My no, I sorry. It's not time for me to ask you a question.
+说话人2 47:37
+No, I can ask, I think I asked of my question. I think sorry, it took a little more time. If you have any questions for me, we'll.
+说话人1 47:44
+Okay, so may I know or like it? Yes. Because this is a 30 minutes, half an hour minutes interview. Yeah. Previously I thought it just a hr interview. So ii don't know it is a technical interview, sorry.
+说话人2 48:02
+Just an initial interview to understand whether you would be good fit. But our team answered any questions that you may have, like what kind of role, et cetera,
+说话人1 48:16
+second first person. I may I know this this work, this role, you what's the detail work in your team?
+说话人2 48:27
+Yeah, so it's certain currently it will be like individual contributor role. So we don't have much, many team in singapore. I know just one person.
+说话人1 48:36
+I know, need a team. I can make the individual contributor.
+说话人2 48:43
+Currently you don't have any team in singapore. So our business is global, right? So this is investment banking within investment banking, prime brokerage, securities lending.
+
+So after us goes off and india comes, so we started a little bit late, so there is a gap. Hong kong traders, singapore traders, japan traders. So that is avoid and if they have any queries, so there is no one present at that moment, right? To help them answer them. So either they have to reach out to us or usus it's already late for us, it's early.
+
+So obviously, if any production incidents happen, we jump into a call. But for like regular carries, we can't do that. So we want to build a team in singapore, and then there's a lot of new projects coming in.
+说话人1 49:33
+Issue. Ii.
+说话人2 49:35
+like new projects. So asia business is growing for jp morgan. So volumes have increased. More requirements are coming from asia. We want to have a local team, so we are planning to hire two people in singapore, so we have one, so that will be three. So far. Now, that would be the case. And that may be that singapore people can work with junior people in india. Like you are working with vendors, so similar kind of setup. Eventually you will see how this goes and if you need to hire more people locally in singapore.
+说话人1 50:13
+Okay, man, what's your expectation for this role during the, if I have an opportunity to join this team? What's your expectation for my first the tree of 6 months? Performance?
+说话人2 50:30
+Initially like understand the business domain sector is lending. It's a niche domain, so big domain, understand the business, understand the domain, understand like talk to stakeholders, traders as understand their problems, and you're very important try to support them initially to bridge that gap, and also slowly start working on the for apec specific projects, which are driven from here.
+
+The requirements are here, no other region is involved.
+
+So we should be able to and let manage those projects in a back time zone without involving us or email in regard involving much, because there are some areas where sm es are only the us or india. So we need to work with them. But so the person will drive the project from here. And that's a hands on role. So everyone, I think that's coding. There is no keyword team in jp morgan, so no keyword team, no.
+说话人1 51:33
+Great. So I I can cure you myself, but.
+说话人2 51:37
+everything I think the developers honestly, they do it all. So talking to users, development, testing for our support, so all done by us.
+说话人1 51:47
+Only so ii.
+说话人2 51:48
+use a little bit, so I like, but they have different people love it.
+说话人1 51:54
+I means, honestly, I this last week, I just write a code review, automatically code review, or scan my project. They can indicate all which code is issue or which code have a complex issue.
+
+Maybe not if have opportunity I can show you what would I generate this my personal code review project automatically? My final question, sorry. May I know the the interview? How many round? Yeah.
+说话人2 52:37
+Yeah, so to be more round, I think it would also be more technical. This was just the initial rounds, but there are three more rounds of technical interview.
+说话人1 52:48
+I hope ii can have the opportunity to join. This is what I want to.
+说话人2 52:59
+say. What are you looking for a new role, right? Like, what are you looking in the new role? I.
+说话人1 53:04
+honestly,
+说话人2 53:05
+what kind of role they are?
+说话人1 53:06
+Honestly, I want to find a us, a stable team. And I want most important for me. I know a good boss is very important. I I can support make my contribution and get my both support. It's a very important thing. And for me, the personal this team need me to make personal country in the individual contribute contribution or not, or manage a team.
+
+For me, no difference. I just want to get to my personal how to say study, I can learn more from this team. I can get get ideal elevation, get my how to say. I can learn from this, for example, I I like banking in singapore, I like banking industry.
+
+So I want to learn more anything related to payment are related to load loads.
+
+For me at all those payments related products. I I like this thing. I want to learn more. I want to find the environment. I can deep research. And to be a specialized. Before that, ii remember one thing. Last week, I just signed in my personal to make a collection cars collection per project. If you like, I can send email to you and include my code and my documents, solution, design documents. So this I like, my interest is like this thing. And why I apply for this role is because I like this industry. Ii don't know whether I answer your question. Byebye. Yeah. Men know whether you will ask me why you need want to leave. Sorry. Do you want to know why I want to leave? You'll be,
+说话人2 55:48
+yeah,
+说话人1 55:49
+I give me too, because how to say? Because my project, cbpr plus cross border payments and reports this project will come to close. For c you'll be the budget each year is yearly reduce.
+
+And my wonder team is almost zero once this the project close. For me, maybe no new projects here. So I I want to express my value. I want to increase my value in my work environment. If I cannot make contribution, then I think it's better to try possible yeah, this is.
+说话人2 56:53
+makes sense. Thanks, wilson for a time.
+说话人1 56:57
+Thank you. I hope I have.
+说话人2 56:59
+the talking to you. I think we are very, very over time. I'm.
+说话人1 57:03
+me too. I have with pleasure to have a discuss with you. Really?
+说话人2 57:10
+Thanks.
+说话人1 57:11
+May I know whether I have the opportunity for the possible to next round?
+说话人2 57:17
+We'll be in touch. I will let you know.
+说话人1 57:20
+Thank.
+说话人2 57:21
+you. Other interviews plan tomorrow, monday, so next week, so first rounds initial screening. Then based on that, we'll do the short listing and then proceed with the next rounds.
+说话人1 57:34
+Okay.
+
+I'm glad to join. Thank you.
+说话人2 57:39
+Thank you.
+
+以上内容由AI生成，仅供参考

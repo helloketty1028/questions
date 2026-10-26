@@ -1,0 +1,223 @@
+﻿7月10日 12:29 claudera 公司初面
+说话人1 01:16
+Hello, hello, hey, hi. Hello, mister, hey. Hi, hello, richard. I'm mute. Sorry. Hey, can you hear me now? I can. Okay. Hi. Good afternoon. How.
+说话人2 01:57
+are you doing today?
+说话人1 01:59
+I'm good. I'm doing. Well, nice to meet you. Yeah.
+说话人2 02:05
+Thank you for your time to accommodate. I don't know. I had to change my last. Let's just get you. It's okay. I appreciate that you've taken out time to change the schedule. Not enough, awesome. Wilson, are you a singaporean? Are you who like being in singapore forever? Like what is the status?
+说话人1 02:28
+Right now, i'm singapore holder, apr holder,
+说话人2 02:31
+pr holder, you, but originally you came from a different country.
+说话人1 02:36
+I come from china right now. I'm a china citizen, but hold singapore pr and maybe next year I will apply for singaporean.
+说话人2 02:51
+When did you move to singapore? Like how many years back?
+说话人1 02:55
+6 year.
+说话人2 02:58
+6 years. And so that's amazing. And i'm sure you like it here, right?
+说话人1 03:01
+Yes. I I honestly, I like singapore, every people very politely and singapore culture and his financial and economic development. I think it's better than china. And in china, if your age is more than thirty five thirty five, the company will think you are old enough. It didn't get respect because the more works, the older, you have more experience and how to make good choice to on your work. Yeah.
+说话人2 03:53
+I I see that it totally makes sense.
+
+Okay? And are you still working with uob wilson?
+说话人1 04:00
+Yes, i'm working with uob and right now, i'm so searching for new opportunity. I think honestly, you will think I hr will ask me, why will you thinking the other opportunity? Yes. Because before you'll be, I work for some big internet companies like baidu, sohu, and renren company in china.
+
+And I also have some startup company from anzhou round to series b and series c so I have the sector or internet spirit. I want to find my personal value in my work from my work. And I bound to make achievement feeling. Here, I ii already learn a lot of the his workflow and his standard compliance, standard and risk control, risk management. Of course, a lot of financial experience. But I want to upgrade my work and work contribution.
+
+I want to search for more possibility or more opportunity to have include more innovation and include many creative spirit in the local bank. Cannot make some creative method in your work. I know this is also, I feel a little upset. I'm not say you'll be bad, you'll be very good. I just want to find some my personal searching things, got it.
+说话人2 06:34
+What do you currently do? What you will send?
+说话人1 06:38
+How long you ask I how long time,
+说话人2 06:41
+what is your current role that you will be?
+说话人1 06:44
+I'm vp two, vp two, and I am the tdn of a project, ccwcw application, and ccd application. I work as the tbm to lead the two application team to support different payment projects.
+
+In ubi experienced a lot of payment is projects, but cbpr plus project and c 360 project is mostly important for me. And for this bank, cbpr plus means cross border payment. Reports this is to upgrade the swiss code exchange code, the purpose for a bank and I lead the cw team to initial each whole wholesale banking customer to assert them, to help them to initial the payment. For example, pay in georgia one and pack the georgia eight and nine. Just like those payment products to transfer to the other country.
+
+I I just work for this. This team, and another team is c 360. C 360 is work for the wholesale banking customer, come to provide the portfolio data of their account. I lead the ccd team, ccd team is this team accumulate all those. You'll be bank the other application daily data into our database, ccd database. And and youtube the class is to happy ccd to analysis and accumulate the each customers daily and maybe years periods the data, maybe positive and negative factors or their portfolio, 1 week or in 1 day.
+
+And to make this suggestion for his team, for his customer. This is our ccc ccd team working.
+说话人2 09:21
+And wilson, are you leading a team? Are you like a manager here? Or you are an individual contributor?
+说话人1 09:28
+I a I lead a team. This technical team have from ten ten pippa. Maybe some ccw application include 20 people. Yes, this technical team include the technical developer and tester. I also work with the other stakeholders during a project. I need to support the project manager with how the previous at the early stage of a project, I need make the decision, make the plan for our teams, develop a schedule and work with the architect team to make this technical solution design, how to contribute the technical, colder and deliver those code from developer, even environment to sit and uat environment help them to resolve and fix those bug and defense or defense.
+
+And in addition, after we deliver our application to production, we need to to support the production incidents. Mhm. If have incidents, I we need to support to fix in the third time. Yes, and also compliant team. Yes, just in a bank, the compliance is very, very important thing. All the workflow is all based on the complaints, rule and policy. I work with the mais support I mais policy.
+说话人2 11:29
+So wilson, see, i'm actually looking for like, i'm you are a team leader. Why would you be okay for the like a mid senior level kind of a role? I'm building an eu team in singapore. It is called as leading emerging engineering task force.
+
+This team is primarily will change the technical strategy of this company. It will not change the what of cloud era. It will change the how of cloud era. So this is a new team. You've got a team lead plus 5 to 6 engineers.
+说话人1 12:05
+who.
+说话人2 12:06
+will work very closely with that customers that are because the singapore is a headquarter of asia pacific, for example, the likes of ocbc.
+
+this team will not work on just one product. It will work on for next few months. They will work with one customer probably. And that's you might be solve a different problem. Probably. They're not professional services is they are not anything else. They are not pieces, but their engineering team that will please the between the customer and actually productive. So they will build themselves.
+
+So for example, for next 2 months, you could be improving the cicd pipeline of how do more on it,
+说话人1 12:48
+cicd ocbci I know that.
+说话人2 12:52
+for next 3 months, you could be building an ai use case with another bank, adbs or no cbc stuff like that.
+
+So that is the nature of this team. And I have already built this team except for this one last rule,
+说话人1 13:05
+okay?
+说话人2 13:06
+Which is this.
+说话人1 13:08
+role that's in.
+说话人2 13:08
+this role. I'm looking for somebody who's more a a platform believe that like a platform engineer, a platform architect, somebody who has built not just pipelines or data modeling on xnbi tool, but they're actually architecting or using spark or ice work to build pipelines. Like I want architect, in part, not just building pipeline part. Like I said, they need to build a platform rather than a pipeline.
+
+Do you think is this something that you align with or you have expertise in right now?
+说话人1 13:45
+I I have a spark. Let me introduce myself. I have a spark.
+
+Apache spark experience to build spark a framework. And I had spark experience right now from my resume. I have 3 years of support to work as the technical consultant for a third another company, another financial company. This company is made the content you content quantity trading. I have this team to build a spark architect, architecture framework to have to analysis and to to make the etl and data clean and data storage, and all built those apache spark this framework and spring cloud, spring batch.
+
+And apache spark sparked trimming to process the online data analysis and spark sql leap to process financial offline data analysis. Yes, this is my experience in apache spark. I have the modern 4 years. Yes. And in addition, I use the collateral as a client, claude era client, user. And for the past 2 years, I have previously the hai du pu plus spark is very popular article technical answer for big the big data framework. I familiar with the hai du pu the hd the h space have and might reduce.
+
+Right now, we use the apache streaming to instead of map reduce to make the data analysis. Just like this, I know the python language. Yes, iii don't know whether you need other experience. You please remind me, yeah.
+说话人2 16:28
+No, this is definitely good, like I said. But when it comes to like your cv also says that you have solid experience, leading team, building data platforms and analytic solutions on technologies like loaded spark afghan aws right? Yes.
+
+Kafka. So am I directing saying that how about some deep evidence of a platform engineering world such as spark internal iceberg architecture, distributed storage optimization, or run time level performance tuning. Have you ever done all that ever since?
+说话人1 17:10
+Let me seen u means high concurrency distribute system, optimize. Yes. In baidu. And previously my work I support the high concurrency dispute distribute system based on the spring cloud. We used radius and kafka to process if the high concurrence is a builder, volume request, come, we can use a think workflow, my framework. The answer is kafka to quickly reply or response those request, then we can use the car consumer to make the process of the following workflow. And we use the my circle and oracle cloud a cloud cluster to story the distribute data set.
+
+And I know the distribute the transaction, how to process this one data story in different database during your system, how to make sure the transaction is in item transaction and all done or never done anything. Yes. This my good. What am I good at? I also for me familiar, the spring configuration for distribute, all those distribute have only one spring configuration so that every server use the same or alignment of those configure. Yeah, the other thing is how to monitor your system so that your system once have incident or risk, you can immediately to reply to fix. If I want to add the automatically answer, I we can use the docker. Some cool cooperate free book to resolve it. And in addition, I also need a personal team to help to monitor each possible risk. This is what I daily work.
+说话人2 20:12
+Okay, sure, absolutely no, that's helpful with it and within. Are you? Because like I said, see, you have done a lot, right? You have high experience as well. You're building you're leading a team right now. Are you open for an IC role like individual contributor role?
+说话人1 20:28
+Ic role is mean, sorry.
+说话人2 20:32
+Individual contributor?
+说话人1 20:33
+Yes? Sorry. I will give it because right now I said on want to answer as you. Right now, we are welcome the AI agent. I I would like to make the inner individual contributor, because I I can have a built up a system. I can make the coding by myself. I can make the cicd flow and how to configure. Dad, this is what I good at. Right now we have this word, have the some try to GBT or cloud code, or the other thing I want to know whether our clouds are can allow our cloud a team to use those AI tools help to improve their work.
+说话人2 21:29
+Okay, that's lovely. I know what is the notice period here? Wilson?
+说话人1 21:40
+Normally, in ub my level, I need 2 months, but because I have the the money leave this, so 1 month is enough, but.
+说话人2 21:55
+okay, and what would be your expected compensation if at all you decide to make a move out of you will be?
+说话人1 22:02
+So contemplation, I suddenly
+说话人2 22:17
+don't compensation like your salary.
+说话人1 22:22
+Sorry, as MS 14.
+说话人2 22:26
+14 is your current salary?
+说话人1 22:29
+Yes. Every year have the 12 month salary and 1 month or 2 months for your budget. But based on this year, the bank, MHM. The whole bank, the revenue. Yeah, those things.
+说话人2 22:56
+I'm guessing answered. No problem. Ii i've taken a note of it. I will send what I'm gonna do. I'm gonna share these notes with the hiding manager. His name is Jia Guang. I'm shared all these details with the hiring manager. If you think that you could be a value add to the team, to the missing puzzle of our team, I will certainly get back to you to tell you the next steps. Thank you. I will take a week because if they are going, the team is currently traveling to Ireland in India. So I think the team will only get back after 1 week. So I i'll get back to possibly within 1 week or 10 days.
+
+Yeah, so everybody I.
+说话人1 23:43
+once they come back, whether we can have the face to face, discuss or online discuss,
+说话人2 23:53
+so I think the first conversation would be online. And if the shortlist is online and then after that, we can have you meet the team in office as well.
+
+Okay, good. I I don't obviously the raffles, please.
+说话人1 24:09
+Nice.
+说话人2 24:11
+Yeah. Awesome. Sounds good. Wilson. Any questions for me?
+说话人1 24:17
+Okay. But one question is, what's your expectation on this role? And later, could you please share the related role? Jd to me?
+说话人2 24:31
+Yeah, II I will see, like I said previously, when we were building this team, we were looking for people with large scale distributed system experience. Okay. Somebody comes from the application side. They have built a platform, have well known infrastructure.
+
+Now, ive already hired four people on this team Wilson, who have that kind of experience.
+说话人1 24:58
+How many people?
+说话人2 25:00
+Already four people hired?
+说话人1 25:01
+Four people, yeah.
+说话人2 25:03
+One manager, one leader and four people, individual contributors are hired.
+说话人1 25:08
+Okay,
+说话人2 25:09
+I so I'm definitely one last rule.
+说话人1 25:12
+Okay.
+说话人2 25:14
+There is a little change in expectation for this role, which I told I need somebody who has not just built pipeline, but build data platforms.
+
+Somebody who's architected that platform,
+
+not just a user of it. So that's exactly what I'm trying to hire for right now.
+说话人1 25:37
+So you need aaaic ica team player to help build the data platform, base it on which technology.
+说话人2 25:53
+See, it could be anything, it could be iceberg, it could be trino, it could be sparked an actual builder, not just a pipeline builder.
+说话人1 26:01
+Okay?
+说话人2 26:03
+Yeah. That's why I asked you these many questions, because that's expectation is because it's the last role. And we want to have a holistic team so that everybody has some strengths, some weaknesses. So i've already got a lot of people who have built who come from athlete Asian side whose build infrastructure, but I I want one person on the platform side as well.
+
+So I'm okay to hire some platform engineer, a data engineer who was actually built a platform architect. That's my last rule.
+说话人1 26:36
+I I got it. Okay, I want to say previously my most work based on the platform, but this platform is high concurrency. The website just like Google, just like the grab. But if you need me to build a data platform, I I can do that. Yes. Yes, but you the big data equal to 2 kind of role. One is big data builder. Another is big data analysis. I but I think you need the previous.
+说话人2 27:30
+with them.
+说话人1 27:32
+This icon.
+说话人2 27:34
+Are you on the builder side or you on the second side?
+说话人1 27:38
+Maybe in future, I can do the boats, but right now the first one.
+说话人2 27:45
+Got it, awesome. Fine. Give me some time, Wilson, and i'll get back to you then.
+说话人1 27:51
+Okay, thank you.
+说话人2 27:53
+Yeah, thank you so much for your time. One last question i've had. So your profile says that you are still a technical consultant. Are you still financing.
+说话人1 28:03
+financing fee?
+说话人2 28:09
+I like, because if I should be your profile, let me share my screen.
+
+If you look at this, we were holding.
+说话人1 28:22
+Still.
+说话人2 28:24
+president. Are you still a consultant?
+说话人1 28:27
+Yes, right. Now, still the consultant for this.
+说话人2 28:32
+for you.
+说话人1 28:34
+a part time.
+说话人2 28:36
+Okay, so you're still doing this. Yes. Is it allowed like you can do have 22 things to get there?
+说话人1 28:45
+Yes. Because in uob I work as the tdn to lead the the team to make the Java spring, the developer development work and for the pure land. I work as the consultant to help to build the Apache plus spring boot, the frame technical framework to make the data analysis, no conflict for my work.
+说话人2 29:24
+So maybe we'll talk more about it. If you move forward, we'll talk more about it, because II typically, I your name should not be there on any of that. I.
+说话人1 29:35
+understood. I will stop. I I will stop this.
+说话人2 29:40
+Sorry, but no, I I'm not asking to stop, but we'll discuss this. I understood that we should not be conflict of interest.
+说话人1 29:47
+Okay? Because this pure land, this company is no need me to do too much thing. I my my girlfriend. As brother is this CEO of that company. So I see I just a friend a lot, so no need me too much time. Right now, I if I joined the Colorado, I will cancel this. I.
+说话人2 30:19
+yeah, I I see nobody sounds good. Thank you so much. Wilson for your time. I truly appreciate.
+说话人1 30:25
+Welcome. Thank you.
+说话人2 30:27
+Yeah, thank you. Bye, bye, bye.
+
+以上内容由AI生成，仅供参考

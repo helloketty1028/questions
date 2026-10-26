@@ -1,0 +1,173 @@
+﻿10月23日 13:29 B1录音
+说话人1 00:00
+Nasa.
+说话人2 01:22
+Hi, awesome. Right. Thanks so much within a call, right? Maybe let me run through a quick introduction myself, right? So i'm jordan here. So apparently, i'm a television manager here as in south singapore. Right? So for me, I am currently handling all the hurry for us, intel cloud, us, intel, I ts, income, cyber security. Right? So these are the departments that currently managing the entire processes for, which is why i'm conducting to be this interview, because in this role actually falls on the intel tech, which is in the it department. Right? Thank you. Yeah. So for today, I think maybe just to start off, right? Actually, my first question to you, right? It's really, I think, for us to align with you on the salary, because I don't want to waste your time. So before you get off to next couple of rounds interviews, I want to check in view on to see what is the salary expectation as well, because I understand that you have quite a bit of experience.
+
+So i'm not super sure whether I will project can. It's kind of a line with your salary expectation as well, right? So maybe when you have to try to do, maybe share be more about your expected salary and your current drawing also.
+说话人1 02:33
+Before this call, I already review our jd description. Sometimes very good carefully. I'm very thank you for your this opportunity. Have this call.
+
+I think I i'm my what experience a very aligned with this role? Yeah, because for ii have 18 years works experience in e commerce, fin tech and banking. And I also okay, let me like give me a second, sorry.
+
+Okay. I think this role is very close. What I do at uv every day. I at ubi my role is tdm technical delivery manager and I lead the payment projects to release, make the release for a business critical platform, like the project scope. Situit send off and architecture, technical solution design, like the change request and go through the cab meeting and final d the production roll out and the incistics on. That's all I what I do every day. So I think I can at my value from the day one, this first reason.
+
+Second, I know the bcci don't have the direct experience on the bcc but I think the building and charging is where the money flow in the telecom, just like the payment flow, payment transaction flow in a bank. It affects every customer every month because it monthly the billing. If something goes wrong, it will hits the revenue and customer trust. Straight away. I think it it is just kind of system I look after for the past 4 years, I what I do in itob this second reason, the similar the workflow thirds third is forcing tale itself.
+
+Also very important reason is because tsingtel is the singapore largest telecom firm.
+
+And with the tsingtel 28 to eight, there will be a lot of changes coming, I think, like digital transformation, ai technology. I believe this role will allow me to bring my my banking and ai experience on this team to welcoming the dos new chinese.
+
+Yes. Be because I for this call, I also want to show you ai generator projects. But maybe later I can send email to you. So you can understand I what I do in ub for the ai and for the banking flow and credit card collection, I also joined the credit card collection system. It is as to prepare and manage the collection workflow for each customer. The debt is and his trusts, credit trusts. So I think it's very similar to our telecom, the billing and the monthly, the collection, the workflow. So also I think this my good item ability item for this role. Yes, okay. Right now I just can provide those identification. Yeah.
+说话人2 07:33
+Actually, john, ii wanted to actually check in with you on your salary, because i'm not sure whether our budget is able to align with the expectation. So not sure if I able to share what kind of salary are you looking at and also a bit more about what you are kind of currently drawing as.
+说话人1 07:55
+well.
+
+Right now my salary is 14,000 monthly and every year have aa budget. So maybe 1 month or 2 months not confirm.
+说话人2 08:17
+That is for the bonus.
+说话人1 08:19
+Sorry,
+说话人2 08:20
+bonus. Thank you. Okay, got it. Ii wanted to talk to you, right? Because in terms of the budget, right? I believe currently because you are at app level, right? So for us we are looking for someone more junior which is actually kind of like senior delivery manager role. So actually in terms of the budget that we have currently on this role, right? I believe would be an increment for you. So to be honest with you, the budget that you have currently is 10 to 11,000 in terms of like the monthly base salary, right?
+
+So to you, I think it's quite a huge agreement. So i'm not for sure whether you're still open to this opportunity are not.
+说话人1 09:02
+ii see understood. I i'm flat, flexible on the budget structure. Maybe I means every year the ii don't know the total budget is what disaster example, whether have the 13 salary for this role and whether have the yearly the bonus and what's the bonus is, may I know it?
+说话人2 09:36
+I can share a bit more on our structure here. Here. We don't have aws or a little bit more. So what we have here is actually one 4 months variable bonus. The average is actually between 1 to 3 months, depending on your.
+
+its performance as well.
+说话人1 09:55
+I I see. Okay, sok because honest, right now, i'm in I work for, you'll be for 4 years and to manage to lead the cbpr plus per project. Several years. And this project is cross border payment and reports. It's aa very senior important project for this department. This project will reach its end. I want to search for the more to broaden my work in industry and my work experience. So the salary I think is not most more, the biggest or the most important for my currently choice.
+
+So I think this role I can I can very seriously think hope I can get this opportunity. Yeah.
+说话人2 11:07
+I see, I understand, got it, so I just understand better. So the cross border payment project that you're currently working on, it's coming to an end this year. Is.
+说话人1 11:19
+that correct? Correct?
+说话人2 11:21
+Coming to the end?
+说话人1 11:23
+Normally, other last year already, this project I already lead and push roll out, some worsen. And this year we have some upgrade at the data. Migration for iso swift code migrate the upgrade. For this thing, we have some upgrade, the release. I lead those big release, so right, this year will come reach the end. Come to the end.
+说话人2 11:55
+Got it very lucky. I understand. Great. So let's move on to know you better, right? In terms of like this role, right? It's actually for the bcct right? Bcc 3 cents for billing, customer and charging, right? I think you've already known quite a bit already. So some stuff like the questions I have prepared for you, right? Is that I I wanted to understand more about the types of like major releases that you have managed, right?
+
+Maybe it you could be right. You could be in other companies, but I want you to share to see. So how did you ensure that the releases are delivered successfully?
+说话人1 12:39
+Good question. So for each release, I must make sure we can go through the sit and uat sign off. Got the uat as an sit sign off and prepare those identifications for for the cab meeting or tracking, and for the production rollout, we must prepare the environment, the deployment, jar files to the start standby environment.
+
+In ub we call it elden server. Vc, those related jar file and config file to this island server and to test check whether this server everything running well. What's done? Then? We need to teach the our trade team. Our trade team is production support team. The arbitrary team we need to teach, deliver, or what's the new updates for this release? And what's need to be prepare be careful of it. The next is we prepare the rollout plan for each release. If anything went wrong, then we immediately to roll out. Yeah, and we have the online monitor functions and service like a splunk monitor and the other server monitor to the for different perspective level, environment level.
+
+And I so I think it those thing, if we can prepared a while, then the release will running well, will smoothly.
+说话人2 15:00
+understand, got it.
+
+So maybe you can so share right today. What was the most complex or complicated release that you have managed? And maybe we can share like, how did you overcome the release as well? The challenge?
+说话人1 15:18
+Let me think thank you for this question. Okay, I think I take this year, I just said I so super cold migration. This thing. The for ub we have the legacy system and a new system to support the iso the old swiss code and the new swiss code for the situation. I I use the situ star principle to explain to this story situation. It means background. Technical delivery manager tdm and I I delivered migration project and iso migration platform is already live. Sorry, the cw the payment service platform already live, and the payment have strict cut off time.
+
+And I need make the iso migration successful. And in the meanwhile, to prepared to make clear the dependency on the multiple systems and wonders with and the payment with the fixed certificate by the line. This is situation and task. I'm responsible to delivery the migration changes on time while keeping the payment service stable and avoid business disruption. They said dai, my responsibility. So how I do, I I suggested to make it faced coexistence approach instead of a big bang cut over. That means I I can accept the legacy system and the new system running in the, meanwhile, to running some months, to monitor and to track whether the new system is running as expectation.
+
+Yeah, and after the summons, then the monitor, then monitor periods, then we can do the next cut off the legacy system. Yeah. For this purpose, for this goal, for goal, I coordinated the dependency dependencies across all the related team teams, like upstream and downstream teams and requirements teams. We call it sa team and sb ea team. And I checked the risk and monthly and weekly. I report the progress to the steering committee team, make sure the release, pass the sit and uat and change control requirements. This is the accent and the result. I think I this is good result. And ii my boss say good for my performance.
+
+Result is we went live 2 months ahead of the deadline last year, this year in august, 2026, We retired the coexistence period without interruption. That means this release the online service very smoothly, no impact. Yes. And I think also the the release period different between the banking and telecom industry. But I think the call principle and call cicb and call the workflow. Regulatory policy are similar. Yeah.
+说话人2 20:17
+Okay, I understand. Got it thanks much for sharing. I think it did. The banking and taobao releases could have some slight, small differences by. I think generally, the common souls like cicd overflow compliance or military policies are quite similar. Bell, thanks so much for sharing. I think those are very, very relevant what we're looking for as well. Thank you.
+
+So now actually, I just want to check if you're right to see. Do you have any question? Since are they prefer more about this rule or about the company, the culture? So they support?
+说话人1 20:56
+Yes, I know this is a new role or a replacement role.
+说话人2 21:03
+For this role. Let me check. It is a replacement role.
+说话人1 21:16
+Good, I see. So may I know what would successful look like success, look like in the first 6 months?
+说话人2 21:28
+Okay, so in terms of like this team, right? So maybe I can share with you more on the day to day as well, right? So for this role, we are looking for someone, right? Who can take ownership of the end to end, bcc release execution one, and then two is to coordinate the multiple teams, for example, yourself use what we write downstream the downstream teams like and the business supporters, and then also like the release team, the product of steam so on and so forth.
+
+So this is the same here as well. You need to work out and coordinate with the model teams, and also to ensure that the testing and approvals are completed.
+
+And then to manage the deployment risks, if any, and then also to maintain business continuity, which is to basically what about you done so far, which is to avoid any business instructions while you're handling this. Bessiso right? This is essentially what we are looking for this role. In terms of day to day wise. I will break it down into six different parts. Right? So number one is that you will have to plan and cultivate the several releases, right? We have to consolidate all the upcoming billing system changes to agree on the release scope and timeline to call. Or they need. The teams needed to deliver each release. And then number two is to ensure that the test is completed, right? To track the required testing stages and confirm that the teams have tested changes adequately before deployment line. Situi ua ts and so forth.
+
+And number three to manage to change approvals and governance, to ensure that the changes have the right documentation, risk assessment, and approvals before implementation, for example, for your professions request and represent the implementation plan, at least at the cab as well, cba meeting, right?
+
+And then number four is to align among the posting holder.
+
+So you won't get exactly business teams that have developers that network infrastructure operations, and also even external mentors are to agree on the school priorities and employment schedules as well. Right? Then safest and oversee the deployment, check it, and ensure that the teams are ready to deploy, to go live, understand the implementation sequence and have a few. So I have a format plan or a backup plan. If something goes wrong as well, right? Then last week will be to track the progress and report release status. They prepared with tm monthly updates, covering the release score, testing progress, reads, dependencies, approvals, and and outstanding issues as well. Right? So these are all these six aspects that you can look forward to in your day to day.
+说话人1 24:06
+I I I see my evidence. My understanding for this role is not only the leader, the release, but also have the technical background. So that can understood each stakeholder work better. So I think this is what ii am good at. Yeah, and I also make some research for this bcc on telecom. And I sorry on this. Our intel, I I also know this is very important and core project and core system for center. So has also taken very important on this this role. Okay?
+说话人2 24:56
+Yeah, definitely. So this rule because anything and everything related to revenue and profit will be very, very important, right? So if the customers price, companies becoming the events that will be very difficult as well. So this is why this is very important for practicing that. Byebye.
+说话人1 25:17
+Yeah, honestly, i'm using our single number and service. And I have my feeling is a little expensive for our service, but very good, the digital smoothly to use.
+
+Ii think I am very result driven and innovation. I I often can provide some creative idea for my work. And I think in future, I can make my innovation contributions on this role and on single also.
+说话人2 26:04
+Yes, definitely. I see that you have worked on a few ai related projects, right?
+
+So actually, this is something that you can bring to the teams. How would you not really, I I won't mention, you don't think tell me strategy. We are wrapping up along ai we are building our own data centers. We are expanding our core infrastructure soon and so forth as well. So you can also expect a lot of like ai believe the releases in the future. Sure as well. So you can also play this out on the next round hiring manager. And I think you'll be more than happy to hear about that as well.
+
+Okay.
+说话人1 26:37
+Okay, I I know other person.
+说话人2 26:42
+Awesome. So maybe now give me a few minutes and let me run through some each or a question principle, example information from you is ok.
+说话人1 26:51
+okay?
+说话人2 26:52
+So just to confirm you are singapore pr and then you should be chinese citizen. Is that correct? Yeah. Is that in terms of, like notice period? What is the notice period that you have to answer.
+说话人1 27:06
+1 month? Yeah. And ii I can be make it shorter.
+说话人2 27:13
+If can we get even shorter? Yeah. Awesome. Give me check back. How much shorter can you make it? Is it like 3 weeks? Is it 2 weeks?
+说话人1 27:23
+2.
+说话人2 27:26
+weeks.
+
+Amazing. All right, then just 1 point of view that a budget for this role is 10 to 11,000 monthly days, and the performance bonus is 1 to 3 months, right? That is okay with you.
+说话人1 27:41
+Yes, if can be more, it would be great. But for this budget scope, I can accept it. Honestly, I think in future, I have more opportunity. Doo. Let me roll to hire and let me both budget.
+说话人2 28:06
+I guess i'm sure actually you have a long journeys and let's see your and then we will have a lot of rules and projects maybe for years ago. Right. Yeah. Ok awesome.
+
+Ok it just take a party apart from sea tail. Are you going to be with many other companies or someone else?
+说话人1 28:26
+Yes. A a few. Because right now I just start my interview. One or two companies are connecting.
+说话人2 28:44
+I see, I understand. But any of them, are they probably the early meet on final stages? Ready?
+说话人1 28:54
+Sorry, excuse me.
+说话人2 28:56
+Are they in the early, mid or final stages, like in terms of like the interviews with the other company?
+说话人1 29:02
+Yes. Early stage, because I just started my interview,
+说话人2 29:10
+understand got it. So how would you prioritize intel right in terms of like maybe as compared to the other two companies?
+说话人1 29:21
+Xin tai is aa large scale company, and I think it has its impact in singapore and in singapore telecom.
+
+I want to know about for this. This is also very important industry, just like banking. And that's why I want to broaden my personal impact and personal career in telecom is telecom. I can say honestly is what my next was my idea. Somehow is my worst partner.
+说话人2 30:02
+Okay, that's good to hear. Got it. And I think last question, right? Just to check, you hardly have any family members are working on the intel groups. So includes the options. This includes a single yet and so forth.
+说话人1 30:19
+I have many, many friends in ub and they come from xin tao, xin tao ubub xin tao. I think many. You'll be a team member also right now working for intel.
+
+So ii so I know xin tai very, very much. I know its environment. I my girlfriend is the home just besides I was thinking. So it's also very, very good point. That's.
+说话人2 30:56
+why that's good. Sometime. Just you bring it somewhere to sit down. We have like around ten buildings in singapore, right? So for this role, you'll be based on this, right? Good north office.
+
+Okay, awesome. All right. I think that's all the questions that I have in terms of like the next steps. Right? So I will be checking in with the hire manager on the interview scheduling.
+
+So if you want to meet you, then I will show you for a 1 hour interview with the hiring manager who is matthew. So after matthew, you will be meeting. I think the of it right afterwards as well as the final round. So if let's say he wants to have a third round interview, I will let again, but the first round will be virtually held by a microsoft teams and then and second round should be face to face and then the round I I need you give me the hermitage of request for.
+说话人1 31:52
+Okay, ii like both I like face to face interview also,
+说话人2 31:57
+okay, awesome, okay. Great. I think so. I just want to hear, thanks. You get many questions. You can just let me know why I want it done.
+说话人1 32:06
+Thank you so much, jordan. I see this. You spend your lunch time to interview me. Thank you so much.
+说话人2 32:14
+No. But it's actually lucky. Yeah, thank you. Take care. Bye. Bye.
+
+以上内容由AI生成，仅供参考

@@ -1,0 +1,421 @@
+﻿7月21日 14:59 B1录音
+说话人1 00:01
+Hello. Hello.
+说话人2 00:28
+Good morning for me. Anyway. How are you?
+说话人1 00:31
+Hi, oliver. I'm doing. Well, nice to meet you. Let me. Enlarge my mouth, my voice. Say, hi, see me.
+说话人2 00:50
+Hey, how are you doing?
+说话人1 00:51
+Hey, good afternoon. Hi, wayne. Hi. I cannot hear you. Sydney.
+说话人2 01:20
+Yeah, and you're calling a bit low.
+说话人3 01:23
+Nasa. Nasa.
+说话人2 01:45
+Nasa.
+说话人3 01:54
+What type of pick up time? We just keep it honesty night, 2020. Nasa. Byebye. Byebye.
+说话人4 02:16
+I feel ill. Be happy to.
+说话人3 02:17
+kick off for the same time, I think.
+说话人2 02:20
+Sure, not a problem.
+说话人3 02:30
+I.
+说话人2 02:32
+think of your cd as I it's been very, very comprehensive supposed to start off its.
+说话人3 02:41
+own.
+说话人2 02:42
+Some home runs for you. Can you explain what ccdi pipeline is and what tools are used in acdi pipeline and what benefits it gives us?
+说话人1 03:03
+Okay. You ask me to explain the cicd pipeline from the uv company? Is it?
+
+Okay? In uob they used because our code is java, is java. And we used a bit bucket to story the code ripple. We have the branch strategy to manage our each time, the code submission, code review, and code merge flow during our code submission, we have the unit to automatically to make the code test. And we need to at least the ju need coverage at least 90 % or 90 + %.
+
+And after summation those code, then we need to deliver deliver to artifactory. The after that, we need to make the.
+
+that how to say deliver to sit and uat environment and went through the ica ssasa sast the taken the test to make sure the code is safe. It's no ripple issue or no ripple risk. After that, we need to went through the pen test, will in pen test, we will check the dastsast and to make sure there is the no senior critical and high level risk. Middle risk will be in control.
+
+After that, we will get the time test report. And.
+
+in this sorry, before pen test, we need to when go through the the very cold report, we will make sorry, for those code.
+
+Scan the third party report, we our code, low code, common jar fell on the cold, cold may be possible some some risk in this cold. We will we will use the vehicle report to track this.
+
+And after it, a very cold report will generate the report result report in information. How many critical level and low level and media level? Those vulnerable, vulnerable risk. And besides that, we will check check one by one dose risk. And after.
+说话人3 07:06
+after.
+说话人1 07:08
+our validation, those risk, we will make the plan when to fix or resolve those risk. And whether this time these words, and then we can fix some risk, major risk first. And after it, we have the available words of ripple which can be delivered to production. Yeah, we sorry, after ten test and vendor barcode report all done, then we will in the same time, we will get the uat sign off.
+
+After it, we will plan to go to the elder server, elder workflow. And we will ask for the operation team to support pi at api date. And during the before pi date, we will make some make some.
+
+prepared work. The prepared work include.
+
+I deliver or deploy those new service, the new version report to the target server, elden server. It. And after the different deploy work done, then we will test whether those services can running well in island server, because the island server is pre pre products and so on. In it's almost the final final stage environment. So we must to test whether those server service is running well. And for database, we we also need to make dry run to check and validate or those between uat environment and production environment, whether I database schema, data table schema, have change and updates can unity compared to production and production compared to uat and whether any static data changed between the two environment, database, uat and production.
+
+And after we generate the syrian report, people need to analysis or whether those change or updates. It is because of this time, the new version called report, a new version requirements, and whether some some change updates is unplanned. And we need to fix those things.
+
+This is all those prepared work before go lab. And after those things, then we need to go through the ccm meeting and ccm.
+
+scan and validate and check whether any risk for your this time go live.
+
+If we get the approval from ccme team, then ccm will prepare this processing activity. We raise the crq and this ccm team basically will to do some support work based on the crq description. Yes. That's all believer.
+说话人2 11:21
+Thank you. Can I have some of the tools that would be integrated into your ci pipeline, cd pipeline as well for the testing phase or middle phase or the actual deployments. But you might have used several depending on the different companies you were in. En. For example, a job pipeline would be.
+说话人1 12:01
+Okay, thank.
+说话人2 12:01
+you. Your birth, you've got not true cic to get pipeline for that.
+说话人1 12:09
+Thank you for this question. Help me to complete my description on this cicd pipeline. We use the.
+
+we use the big bucket to maintain our code report and each version submission for our code, code change, code updates.
+
+And after that, we use the thunder cube, some cube test tools to test, to make the first round test for the new words of code, to check whether I need grammar issues or.
+
+some code. Sorry, some do you need? Coverages is not enough. They will provide the related report, related scores. And in the same time, it also will give the target score means if you, it include 5 ° rate degree or rate scores, 12345. And normally, each report must or must get this at least four, four score. Then it could be approval to go next the stage. This is a sound cube, sound cube. And after it, we we need to use the jenkins to.
+说话人3 14:09
+compare and.
+说话人1 14:11
+to how to say to deep deploy, compare those ripple branch.
+
+After this thing done, then jenkins will deliver the new compound, the jar file to the.
+
+to the.
+说话人3 14:36
+artifactory.
+说话人1 14:38
+tools to maintain.
+说话人3 14:40
+how to.
+说话人1 14:41
+manage those compelled jar file. Each words in jar file, we can query, and we can found whether we already compel or deploy, not deploy, whether we already compel that.
+
+After that, we use the dickens also can have get the access of those server,
+
+those server environment or server past. We will execute the related deploy, deployment work. Yes. And after it, we will prepare the scasca scan. And we used.
+
+how to say that word?
+
+We use the g frog to maintain also can maintain the.
+
+the artifactories, those jar file in it factories. Yes, and after it, we use the we.
+
+ica very cold report, we will make the very cold report after it. And this vehicle report tools. So I have forgot jenkins, jenkins, because we have the sorry, very cold website and this website can help us to make the based on the code words and code, branch name, code ripple, branch name, code, ripple, address, and code ripple built words and to generate the very cold scan.
+
+And after it will generate the related report.
+
+So the very cold, I forgot the name. Okay. The tools name, sorry. After it, we will use items. So items, evidence server to prepare the cdcicdcd process. That means that means.
+
+can continue to deploy the new server.
+说话人2 17:50
+Yeah. And sorry, go ahead.
+说话人1 17:57
+Sorry. We c in eob we already use another the third party company to have generate the pan test report. Yes. And so this is the contest, report source and or contest way. We use it. And.
+
+the evidence server, we we can use the rocket island. Yes. To maintain or to man manage the elder workflow. Or you if I missed something, you can remind me because is my everyday works, work things, work with these things.
+
+So something maybe I familiar to use this tool, but maybe forgot. Forget his name.
+说话人2 19:14
+That's okay. I suppose ccdcicd pipeline is probably very embedded in our processes. So there's many different development. Life cycle processes, such as waterfall, mini waterfall, and agile scroll, more scaled, agile. We use scaled, agile, but could you name the different roles that would be on aaa screw module team generally that you've worked on? How that is operated, any daily or weekly monthly rituals that are required. And how long each cycle is, what the cycles are named. And then what is required to at the end of the cycle, say, and mention any any tools you would use in the team to help with that process.
+说话人1 20:41
+Because in you'll be, I experience the many payment projects. And during those projects include waterfall,
+
+project management, and I agile project management.
+
+I can take the agile project projects, for example, in this project in ub include the pm team and architect team. And fbafba team means business analysis team. And sasa means solution analysis team, sa team to support the solution design. His upstream, this role upstream is iba the downstream is technical team. Yes, it is our team for my team, is, I believe I lead the cw team. Cw is application team it. During.
+说话人3 21:56
+the.
+说话人1 21:58
+in aaub one project include many applications team to support one project workflow, payment workflow. My team is include the.
+
+developed developer team. It's squid team. We have two squid team. Each squid team have a squid lead. This squid lead is support the daily and weekly. The these teams work, progress and code lead this team to make to made the code coding work. Yes.
+说话人3 22:48
+I.
+说话人1 22:49
+worked tbntbn means type technical delivery manager.
+
+My role is to work with the architecture and pm so I say role and be afba role to make the correct to receive the correct.
+
+requirements design. Then they base it on this thing. These requirements, I will.
+
+discuss with our technical team to make the a correct solution, work schedule. For example, they will ask wilson, how long time and how many mondays do you need? Please provide your your budget report, and how long time and how many weeks you will provide some output in this project? How and during this project, when can you deliver to sit environment? And when to deliver to unity environment, when to get signed off and go live, and what's your dependency? Is there any dependency to each other stakeholder of each other related teams?
+
+Yes. This is, I introduced my upstream the work roles and downstream like each stakeholders, td the other, tdm and I need the work with the s sit tester team. We call it tcoe team, uat tester team. We call it w woic team work team. And we have the compliance team and held.
+
+project owner. And let me see have any others. Maybe is this I for save time, I just introduce those roles. If I miss anything, please, you introduce it, remind me. Daily and weekly. We will have the daily meeting to.
+说话人3 25:38
+to.
+说话人1 25:40
+discuss or currently daily. What's the remaining things for last day? And karen, today, we need to do what and to catch up the program, the project progress. And what's the next plan? Yes, we need at least 20 minutes to the 30 minutes, every day to decide these things, then start work.
+
+After it, I need to go weekly. We'll have a project manager meeting, weekly meeting. We will discuss or align each education team,
+说话人3 26:24
+the.
+说话人1 26:26
+the status progress and some pending or dependency or requirements.
+
+To discuss our blocks, we will we will discuss together to resolve them. And I work at the tdm role. Tdm not only support the project progress fluently. It also have the responsibility to make the technical design with the architect and risk based on the requirements. This is basic.
+
+Second, I also work with the squid leader and squid team to make the technical solution desire. I also will make the code review. And if there are some incidents happen, normally incidents, we have rt team to support online incidents. If I need a thing, they need to work with the active develop team to fix the incident together, I will be the first man.
+
+First, a person to support. I will make the code updates who support, because we have the different level, da, da, api peers. To we have the policy to support them in the short time for urgent supports. This is my work and my answer my daily worker for the agile project. That's all.
+说话人2 28:18
+very good. So every day, would you have aaa ceremony or meeting with your team for about 15 minutes? What would that be called?
+说话人1 28:34
+15 or 20 minutes? Yes.
+说话人2 28:40
+Yeah. And how long was each springs last for?
+说话人1 28:51
+Normally? 2 weeks. Each spirit,
+说话人2 28:57
+2 weeks.
+说话人1 28:59
+cannot be too longer because spirit should be shorter, so that we can flexible to to fit or support the per project, change or updates.
+
+If have, yeah,
+说话人2 29:20
+at the end of the sprint, was there any retro? Are all stuff? Are more a multiple friends, red rose were. The team will discuss maybe what went well or what didn't go well. Is there a retrospective? Was there any kind of meeting sales for retrospectives of things that went wrong during the sprint or blockages or blockers? Or? What did go?
+说话人1 29:55
+Ii know, I understood yang mingling. So each spirit,
+
+because each spirit, plan,
+说话人3 30:06
+beginning,
+说话人1 30:08
+date and end date, it is design or plan it or scheduled when make this schedule at the early time for a project. As the pro as the project goes on, we maybe often face the different challenge or different block or different dependency. This difficulties, more some come from our internal team, some come from the outside. So this is my work to to a to resolve it. Little ii take one thing, for example, because opera jacket me too me to do the migration work means migrate the payment data from the legacy system to our new system, to our my system, cw system.
+
+So we need.
+
+together with the another application, gb application, gb and cw together to do this work test, and to try it together in the same time.
+
+But because the gb team has many other work, or some urgent.
+说话人2 31:54
+reviews. Your audio is,
+说话人1 32:00
+sorry, my voice very low. Is it better? No,
+说话人3 32:12
+very.
+说话人2 32:13
+distant.
+说话人1 32:16
+That.
+说话人2 32:23
+means, sorry. Could you hear will? And.
+说话人1 32:29
+hello. Hello, the.
+说话人4 32:33
+last question.
+说话人2 32:34
+Yeah. Going through. So, sorry, say something there. Are there in there? I can hear you much better. Now. That's I don't know what the problem was.
+说话人1 32:48
+Thank you. See me.
+说话人2 32:51
+No problem, this conference technology,
+说话人1 32:54
+because I ii took my personal laptop to office, so I don't know how to optimize this mouse. Okay, I hope this my voice you can hear here. Clearly, I let me continue.
+说话人3 33:16
+Okay.
+说话人1 33:19
+For the every time, this sprint meeting will face the different difficulty or challenge. It, for example, is with this challenge come from outside the other, at least application team, they may be delayed, or they may be supported the other urgent things.
+
+So block block, our work together, the progress. So I will try discuss with this team, application team, and to make sure whether 1 day or 2 days later, or it's need a long time, maybe more than 1 week or longer time. I know we need our team need to wait for the together work. If the only 1 day or 2 days delay, then I can accept it because we have the other thing to do is it is, okay. But if this delay maybe continue too long time, then I will ask the pm team to involve them to get into this discussion together to track whether it will postpone. This project also have the other better way to resolve it.
+
+So we can, ii means I need to ask for more help or more resource to resolve this thing together. And the purpose is not only like this block, only pending from my side. Yes. I I will actively to result I need difficult difficulty. Yes, for the purpose is make ten or make sure the project, this project can go live as planned. This is my responsible responsibility law. Okay? I no need. So I don't want to say too much. So. Oliver, do you have the further question or something for the sprint.
+说话人3 35:48
+meeting?
+说话人2 35:49
+Thank you. Thanks, winston. And what that's enough kind of processes. We get that into some more deeper technical questions. I suppose start off with some sql just what is sql what's it communicate? What are basic operations you would use in sql the different things you've used with sql i'll just i've lived on your experiences with sql for me, maybe how it's integrated in with a program and framework.
+
+You can use python or you can use java or c sharp to explain that.
+说话人1 36:50
+Because sqioi have many years, almost ssqr experience. It happened during my work experience. I start, I begin how to say I start my work from the data engineer, for almost some 2 years, big data engineer, for our my work experience, I I used how to say, releasing all database and non release and all database.
+
+For example, my oracle circle server database, mango d mango db. We and have big data architect framework include have itive the tools all have the similar sql language. And I in for the.
+
+like the shopping, solve e commerce product, the payment in ub the payment product, we used a complicated complicate the sql to support the online the business requirements. And we use enable db us how to say we use the view to and index, optimize those database inquiry, the speed and stable or make those things stable.
+
+Sql we how to say left, join, inner join and the index and betray index and.
+
+how to say explain to.
+
+to send or to track the index available, for view, for database, for table, sorry, to check the circle, whether this circle, it already use the index to be search, to be search, or to be inquiry.
+
+We need to use the explain to check this thing.
+
+This is sql besides that, I familiar to use the java jdk from the very early time, early stage, maybe seven, 15 years ago, I already used the jdk java and spring superior families. They include superior spring boots, spring cloud, spring, spring batch to provide the jobs function to support some online, the big data analysis, or online,
+
+some scheduled scheduled work. We use the spring batch.
+
+After sprint three. We have some,
+
+we already use the iot to optimize this jdk recycle or.
+
+some deny and deny how to say. Remove the cg liberal.
+说话人3 41:15
+pro.
+说话人1 41:17
+proxy in the index instance. Those method to we instead of those class and to.
+
+to make the.
+
+to make the jvm running more faster and more stable. And it make good or use of the native memory and native results like gpscpu like this. And besides print supreme code, I also use the python. Normally, python is very how to say. It can easily to build back and the services and save the code volume. And normally we use the python and our language to realize the data analysis work, because it like peasant. It provide many available library tools to support the different algorithm data analysis.
+
+Besides that, like spring, how to say big data, supreme boat, supreme cloud, high concurrency. This is what I am really good at those. Those work is high concurrency framework.
+
+previously on the in china, the internet industry companies, we familiar to use the base or cap theory to support to build and architecture to support high concurrency.
+
+request. But after that period, we know all already have the spring cloud. And alibaba also provide.
+
+double framework, would support a high concurrency. The theory is, we have the.
+说话人3 43:57
+I.
+说话人1 43:58
+think I think there are framework.
+
+For example, if this request two volume, first thing we can limited the request, we.
+说话人2 44:11
+can we just stick with the sql for the moments?
+说话人1 44:15
+Sorry.
+说话人2 44:16
+No problem. I see. You mentioned mongo, db and oracle. What's what's the difference between mongol db and, say, an oracle database? Oracle is a classic acid, acid database. What is mango compared to that?
+说话人1 44:40
+Because we oracle database, it more like a it is a read a recent relational database. It releasing our database, it means it held a solid table schema. It held index.
+
+And we can use the circle language to inquiry each data from each database, and based on the sql based on the.
+
+table data, table, database table, the schema, column name, and index. Yes, this is oracle.
+
+releasing now database, the features.
+
+And for the mango db mango bb is a this tool is very special. Mango bb we always think it based it on the releasing now and non risk releasing now database is in the middle. Why? Because we all sorry, in oracle, most of data will story in the how to say permanent, how to say, how to say on. Sorry, go me a second. Because data we have two plays to story one is catch. Another is I forgot his name in english battery and not battery. It means a permanent story. I was sorry, permanent state, store storage. Sorry. Could oliver, could you remind me? I means oracle, oracle story, those data improvements in permanent story way, the story space and use if only for some inquiry inquiry sql inquiry request account, then oracle will ritual those related data into cash.
+
+And in a certain time, next time, the same sql come, the sql will, the oracle will use the cash, use the data which story in the catch space and find the result and response to collect this is oracle means most data story in the permanent space. Storage, space. Sorry, I forgot his english name for mango db mango db if use the most data, it's in the can in the cache parts. And model db has the master slave node.
+说话人3 48:36
+How to say.
+说话人2 48:40
+the dickens master replica that has a replica server?
+说话人1 48:47
+Yes, master replica.
+说话人2 48:52
+Your audio is going again, listen.
+说话人1 48:56
+Yes, in the big data architecture. Oracle, sorry,
+
+how to, because this is a.
+
+big question,
+
+because mark bb he can story not only the releasing of data.
+
+If you send a files or you send jason jason data or xml data, you send to mango db mango db also can store it. This is a major, different compared to oracle.
+
+This is also major difference between none release and not db and release and db this is the very main difference.
+说话人2 50:09
+Sorry, wilson, your audio is your audio has gone low and distant again. Maybe you cannot all of it is very.
+说话人1 50:18
+small.
+
+How to optimize.
+说话人3 50:25
+God, don't.
+说话人2 50:29
+worry. This happens.
+说话人1 50:32
+I continue to speak, and please let me know whether it is better.
+
+It's better.
+说话人2 50:49
+Yeah, fine. We can hear you now. Thank you.
+说话人1 50:53
+Do you need? I repeat my.
+说话人2 50:55
+answer the last part. I think we were discussed in article versus the mango and I would use is aa master replica. Let's move on from that a little bit. You mentioned the concurrency. What since we're kind of gonna be python oriented? Give me a contrast between the do you have a trend level and . and trend model? And what is a trend in a process in python?
+说话人1 51:36
+What is trend process?
+说话人2 51:43
+A to a thread in python and a process in python? They're slightly too different teams, especially with dealing with file io you can seems to have a lot of concurrency as well in java.
+
+So maybe explain or talk about discuss different semaphores barriers and techniques. I a lot of this would be between java and python there, quite similar in how they use locks. Synchronization,
+说话人1 52:32
+okay? A give me a minutes.
+说话人2 52:40
+Sorry. Wilson,
+说话人1 52:42
+I miss. Let me think.
+说话人2 52:45
+about you have a threatened threaten, you have a threatened problem, but concurrency problem, you want to decide, should you use java to solve this problem? Or do you want to use? Python solves this problem.
+
+You can solve the problem with either or but python has aa concept of threats and concept of process. Some nuances about with it with file io while java, you can have, trends are now, in the modern jd case, you can have virtual trends. And it has some specific kind of barriers and concurrency semaphore to block threads. They don't, we say, override each other or.
+说话人1 53:52
+they.
+说话人2 53:54
+like friends. Can you discuss on the topic?
+说话人1 54:02
+Sorry. Okay. For is my framework or my my sister if have high concurrency challenge or some risk, I I think whatever java language or peasant language, it is about a realize way, realization way. This it is a way no difference for me.
+
+And I what my misery highlight is, what's the detailed challenge? Is there is a detailed challenge. It is a risk. It has some, for example, security risk threaten, or some high concurrency, this a big volume access request rich and this is so you cannot hear me.
+
+May I come again?
+说话人2 55:32
+You're very distant. It's very low.
+说话人1 55:34
+Sorry. May I come again? I will come again. Let me join again.
+说话人3 56:01
+Byebye. Byebye. Byebye.
+说话人1 56:37
+Nasa. Hey, hello. Could you.
+说话人2 57:44
+hear me?
+说话人1 57:49
+You're lucky. I can come back.
+说话人2 57:54
+We were discussing france and concurrency and locks or.
+说话人1 58:03
+threats.
+说话人4 58:04
+Okay?
+说话人1 58:12
+Because threats have many threats. The from our eub we used, I I fail. Vi with the gateway hardware gateway and axv to to work as the api security get away to protect the access, threaten. Yes. So may I know which kind of threat threaten or threats you prefer to discuss? Hi, you are mute oliver.
+说话人4 59:16
+Is there oliver?
+说话人2 59:20
+Sorry, cursing, mute bottom, guys. Sorry. That's all over the house in there. Can you repeat what you ask there?
+说话人1 59:33
+My question is because from hardware perspective, you'll be used sl to work as the gate gateway for software perspective, you'll be held api tier perspective, protect, get away. We call it axv tools, aaxv tool used like gwt token or us to per to filter and to validate the user per person of the authentication.
+
+And.
+
+we also in the internal our system, each service want to access each other. We also protect, we have the wide ip ip list. And only those ip server, the ip client can access those target server in you'll be different. Yeah. Because how to say how to it manage all of the internal system into different group. And in 1 group, the internal services can accept each other. But if your cross the different group to access to the others, you must apply for the a white ip list and apply for the.
+
+how to say the access, permission, approval, so that you can access the touched the other group server. Yes. Do you have further question on this security threaten or something?
+说话人2 01:02:07
+Then I let's come up to the hour here. Thanks, wilson. An hour is a long time for interview months. I'm sure your head hurts, but now it's so fast. It does go fast. That's the thing. I've got our apartments now myself, i'm just starting my workday and now what? I have no more technical question that I ask you will soon. So i'd like to thank you for your time to explaining them what you've done in your previous realms and these processes and technologies you you use. So thank you very much, sir. Have a great day. Thank, thank over to you.
+
+Now.
+说话人1 01:03:03
+My past experience have. I I am. Because many my work and experience I want to express, because I treat this opportunity very valuable, and I also think the the opportunity that work in the ao aob it's very nice and great thing. Very cool. So if possible, I want to know whether have the other, how many remain remaining round of interview manner?
+说话人4 01:03:54
+The sorry, just ask the question. What's the last is the question? Ii missed the last of the question.
+说话人1 01:03:58
+I want to know whether have how to say, how many round interview for the rest remaining that.
+说话人4 01:04:12
+makes sense, what we're still going through the interview processes.
+
+Now, so i'll catch up with oliver after this, and then we'll feed our feedback to hr and then hr will be in contact with that the next steps after that. If we're going to take it forward, there will be another interview, a second interview from there with a different group to take it further from there. So probably a couple of days then expect something today or tomorrow. By the time we get back to hr and then they get back to you. Expect to be a few days.
+说话人1 01:04:48
+Thank you. Because today, because of my laptop issues, a problem, block, my voice or performance, i'm very sorry for it, but hope have the opportunity to future discuss the next round discuss, I hope not. Thank you.
+说话人4 01:05:09
+Now let's start. Now that's like that. Don't worry about the lots of issues. We will work in technology. We know that we have those issues, but no problem. That's fine. It was a good conversation. I think there are a lot of information and you ask a lot questions that we're asking for, sir. We're all good. I think we'll just take that way, and then we'll come back. Thank you. Thank you. Thanks for having me.
+说话人2 01:05:38
+Have a great rest of your day. See you so much later on.
+说话人4 01:05:43
+Bye.
+
+以上内容由AI生成，仅供参考
