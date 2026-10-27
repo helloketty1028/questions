@@ -8,9 +8,9 @@
 | Sub-batch | Sources (#) | Status | Q-IDs |
 |---|---|---|---|
 | **B Singtel** | #13, #14, #21 | ✅ imported 2026-10-26 | Q-0001 – Q-0027 |
-| A JPM | #1 – #6, #17 | ⏳ next | — |
-| C IFS | #7 – #12 | ⏳ | — |
-| D General + other interviews | #15, #16, #18 – #20 | ⏳ (mostly merges into A–C) | — |
+| A JPM | #1 – #6, #17 | ✅ imported 2026-10-26 | Q-0028 – Q-0047 |
+| C IFS | #7 – #12 | ✅ imported 2026-10-26 | Q-0048 – Q-0063 |
+| D General + other interviews | #15, #16, #18 – #20 | ✅ imported 2026-10-26 (split D1 transcripts / D2 #15) | Q-0064 – Q-0079 |
 | — | #22 WhatsApp audio (mp4) | ⏭ skipped (user decision 2026-10-26: no transcript) | — |
 
 **Decisions (2026-10-26):** salary / notice / PR questions imported as strategy only — no salary figures stored · internal cards-team transfer script in #15 skipped, generic questions only · answers written with ATL / TPM / SM versions + industry angles (BNK incl. fintech / INT / TEL); admin questions share one version.
@@ -118,3 +118,86 @@
 
 **Discarded in sub-batch A:** #3 probability map, candidate scorecard and "5 main lines" analysis (meta-analysis; key points folded into question notes) · #5 template incident example (SA-18) · #2 "three rules on the day" (folded into Q-0028 note) · Kafka ASCII cluster diagram (#1) — covered by `domain-notes/COM_distributed-consistency.md`.
 **New domain notes:** `BNK_post-trade.md` (T+1 dates verified) · `BNK_iso20022-reconciliation.md` · `COM_distributed-consistency.md` · `BNK_mas-incident-availability.md` (MAS Notice FSM-N03 verified).
+
+## 7. Sub-batch C (IFS) — 2026-10-26
+
+**Sources:** #7 (base), #8, #9 (earlier draft), #10 (subset of #7), #11 = #12 (identical). No interview transcript in this batch → no `asked_at`.
+**Totals:** 16 new questions (Q-0048 – Q-0063) · 10 merged · 16 new answers + 10 updated · all `approved: []`.
+**Decisions (2026-10-26):** allocation approved; SI-01 and SI-02 confirmed true (parked as 【SI-0x 入库后启用】); SI-03 confirmed (MT/MX reconciliation mandatory during coexistence) — owner open; domain note `BNK_compliance-flow.md` approved and created 2026-10-26 (one page; marks Wilson's hub boundary).
+
+| Original (source) | Q-ID | Verdict | Handling |
+|---|---|---|---|
+| Introduce yourself + why this role (#7 Q1, #9 Q1) | Q-0001 (merged) | ⚠️ SI-10, SI-20 · 🔢 SA-07 | Pending items |
+| Salary + lower level (#7 HRD Q5, #9 HRD Q6) | Q-0002 (merged) | 🔒 figures excluded | Three-step strategy added |
+| Why leave UOB (#7 Q2, #8, #9 Q2/Q7) | Q-0004 (merged) | ✅ · SI-08 | Fintech line added |
+| Why IFS (#7 Q2, #8) | Q-0005 (merged) | ⚠️ SI-12 | IFS example line |
+| Reverse questions (#7 HRD Q6, #9) | Q-0006 (merged) | — | CEO / HRD questions added |
+| VP2, why this level, how long (#7 Q5, #9 HRD Q1) | Q-0008 (merged) | ⚠️ SI-19 | SM version replaced with your #7 Q5 wording; counter-offer follow-up |
+| Strengths / weakness (#9 Q5) | Q-0016 (merged) | ⚠️ SI-11, SI-16 · ⛔ PA-20 | Old answer discarded |
+| Choose and manage outsourcing vendors (#7 JD-2) | Q-0020 (merged) | ❓ SI-05 | Follow-up (method) |
+| AI project / real problem or piling on tech (#7 Q3, #9 CEO Q1) | Q-0030 (merged) | ⚠️ SI-17, SI-18 | Pending items |
+| Risk control / stability during change (#9 CEO Q5, #7 Q8) | Q-0037 (merged) | ✅ · SI-03 parked | SM version added |
+| Bet without enough data / 0→1 (#7 Q6, #9 CEO Q2) | Q-0048 | ✅ PA-11 · SI-02 parked · ⛔ SI-13 | New — SM / ATL |
+| Lean team, no budget (#7 Q4, #9 CEO Q3, #11/#12) | Q-0049 | ✅ · ❓ SI-09 · ⚠️ SI-11, ⛔ SI-13 | New — SM |
+| Five markets: standardise vs localise (#7 Q7, #9 CEO Q6) | Q-0050 | ✅ PA-10.1/10.2 · ⚠️ SI-12 | New — SM / ATL (old answer was struck out by you; rewritten) |
+| Legacy system — what first (#7 Q8) | Q-0051 | ✅ PA-17.1, PA-01.1 · SI-03 | New — SM / ATL / TPM |
+| Hard people decision (#7 HRD Q1, #9 HRD Q2, #10) | Q-0052 | SI-01 parked | New — SM / TPM |
+| Leaner than a Tier-1 bank (#7 HRD Q2, #9 HRD Q3, #10) | Q-0053 | ✅ | New — SM |
+| Hire / assign / appraise / keep (#7 HRD Q3+Q7, #9 HRD Q4, #10) | Q-0054 | ✅ X-02 · ❓ SI-04 · ⚠️ SI-11 · SB-12 | New — SM / TPM |
+| Speed vs compliance (#7 HRD Q4, #9 HRD Q5, #10) | Q-0055 | ✅ PA-03, PA-07 | New — SM / TPM |
+| Management style (#7 HRD Q8, #9 HRD Q7, #10) | Q-0056 | — | New — SM / TPM |
+| Motivate people (#7 HRD Q9, #9 HRD Q8, #10) | Q-0057 | — | New — SM |
+| BAU vs projects (#7 JD-1) | Q-0058 | ✅ X-06, X-02 · ❓ SI-06 | New — TPM / SM |
+| Remote / hybrid team (#7 JD-3) | Q-0059 | ✅ X-02 | New — SM / TPM |
+| Big bank → small company worries (#7 JD-4) | Q-0060 | ✅ PA-03 | New — SM |
+| AI in lending / risk; data + AI and human connection (#7 Q3, #9 CEO Q4) | Q-0061 | ✅ PA-07.2 | New — SM / ATL |
+| Technologies at UOB (#9 Q3) | Q-0062 | ✅ anchored items only · ❓ SI-07 | New — ATL |
+| What can you bring / good fit (#9 Q4, Q6) | Q-0063 | ⛔ SI-15 · ⚠️ SI-11 | New — ATL / TPM / SM |
+
+**Discarded in sub-batch C:** IFS company specifics and interviewer names/values (prep-pack material; no `applications\` folder for IFS) · #7 Appendix A "five core numbers" (see SI-10 – SI-17) · pronunciation tables and rescue phrases (#7 Appendix B / C / E — practice tools) · #9 "cross-interviewer alignment" notes (folded into question notes) · buy-vs-build vendor names kept only as external examples in A-Q0049.
+
+## 8. Sub-batch D — 2026-10-26
+
+Split to respect the 30-item limit: **D1** = transcripts #16 Visa, #18 Cloudera, #19 BoA, #20 SGX (20 items) · **D2** = #15 questionaires (16 items; internal cards-transfer script skipped).
+**Totals:** 16 new questions (Q-0064 – Q-0079) · 15 existing questions updated (variants / asked_at / notes) · 16 new answers + 14 updated · new domain note `COM_incident-severity.md` · all `approved: []`.
+**Decisions (2026-10-26):** allocation approved; SD-01, SD-02, SD-05 confirmed true (parked as 【SD-0x 入库后启用】); SD-08 notice = contract 2 months, resigning, ≈1 month; SD-16 = lead of several teams incl. big-data; severity note approved.
+**asked_at added:** Visa 2026-05 recruiter · Cloudera 2026-07 screen · BoA 2026-07 tech · SGX 2026-08 tech.
+
+| Original (source) | Q-ID | ★ | Verdict | Handling |
+|---|---|---|---|---|
+| Intro / current role (Visa, Cloudera, SGX; #15 ×5) | Q-0001 | ★ | ⚠️ SD-10, SD-12, SD-13 | Pending items |
+| Salary (Visa, Cloudera) | Q-0002 | ★ | 🔒 | asked_at |
+| Notice (Visa, Cloudera) | Q-0003 | ★ | SD-08 resolved | Answer rewritten (2-month contract, ≈1 month) |
+| Motivation for change (Visa, Cloudera; #15) | Q-0004 | ★ | ⚠️ SD-15 | Industry lines + pending |
+| Why this role (#15) | Q-0005 | | ✅ | variant |
+| Questions for us (all four; #15) | Q-0006 | ★ | — | Interviewer answers recorded |
+| Open to IC role (Cloudera) | Q-0008 | ★ | ✅ | Follow-up |
+| Conflict at work (#15) | Q-0014 | | SD-01 parked | TPM STAR parked block |
+| Status / sponsorship / when moved (Visa, Cloudera) | Q-0015 | ★ | ⚠️ SD-09 | Follow-ups |
+| Strengths / weakness (#15) | Q-0016 | | ✅ · ⛔ quant | Pending note |
+| Incident affecting payments — lead the team (#15) | Q-0017 | | SD-02 parked | TPM parked block |
+| Hands-on / day-to-day / AI vs yourself (SGX, Visa; #15) | Q-0028 | ★ | 🔢 SD-14 | Follow-ups |
+| AI project (Visa; #15 proud) | Q-0030 | ★ | ⚠️ Spring AI | Pending note |
+| MongoDB vs Oracle (BoA) | Q-0038 | ★ | ⚠️ SA-10 | Follow-up answer |
+| Latency investigation (#15) | Q-0044 | | 🔢 SD-17 | Follow-up |
+| Highly scalable system (Visa) | Q-0064 | ★ | ✅ · ⚠️ SD-19 | New — ATL |
+| Manager, architect or IC? (Visa, Cloudera) | Q-0065 | ★ | ✅ · ⚠️ SA-06 | New — ATL / TPM / SM |
+| Outside consulting / conflict of interest (Cloudera) | Q-0066 | ★ | ⛔ SD-11 | **Template only** — decision needed |
+| Data-platform engineering depth (Cloudera) | Q-0067 | ★ | gap | New — ATL |
+| CI/CD pipeline (BoA) | Q-0068 | ★ | ✅ · ⚠️ SD-07 | New — ATL / TPM |
+| Scrum team (BoA) | Q-0069 | ★ | ✅ · ❓ SD-06 | New — TPM |
+| SQL with Java (BoA) | Q-0070 | ★ | ✅ 02 CF-N6 · ⚠️ SD-10 | New — ATL |
+| Python vs Java concurrency (BoA) | Q-0071 | ★ | gap · SD-18 | New — ATL |
+| Most proud of / main contribution (SGX; #15) | Q-0072 | ★ | ✅ · ❓ SD-04 | New — ATL / TPM / SM |
+| Data migration (SGX) | Q-0073 | ★ | ✅ X-01 · SD-05 parked | New — ATL / TPM |
+| Middleware design (#15) | Q-0074 | | ✅ design | New — ATL |
+| Fixed deadline, scope won't fit (#15) | Q-0075 | | ✅ | New — TPM / SM |
+| AI use cases beyond code review (#15) | Q-0076 | | ✅ PA-08 · SD-03 parked | New — SM / ATL |
+| Pressure (#15) | Q-0077 | | ✅ | New — TPM / SM |
+| How colleagues describe you (#15) | Q-0078 | | — | New — 30s only |
+| Meeting deadlines on challenging projects (#15) | Q-0079 | | ✅ | New — TPM / SM |
+
+**Discarded in sub-batch D:** #15 internal cards-transfer script (decision) · "银行零售支付数据中台架构设计方案" (design exercise; C360 facts already in PA-05) · empty Q17 / Q18 answers (#15) folded into Q-0017 / Q-0072 variants.
+
+## 9. Batch closed — 2026-10-26
+All sub-batches B, A, C, D imported. Bank now: **79 questions · 79 answers · 28 stories · 7 domain notes**. #22 (WhatsApp audio) skipped by decision. Fact-update candidates for Resume Project: SB-01 – SB-12, SC-01 – SC-04, SA-01 – SA-18, SI-01 – SI-20, SD-01 – SD-19 (see `Fact_Update_Proposal.md`).

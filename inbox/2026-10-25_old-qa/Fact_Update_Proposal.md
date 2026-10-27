@@ -14,7 +14,7 @@
 | SB-02 | ADD | X-06 | Handles ad-hoc / urgent changes after P1 and P2 incidents: checks production logs and the database to confirm whether the issue is in his system; if so, or unclear, brings in the architect and other stakeholders to find the root cause and agree the fix; ships it as an urgent change | #13 [CONF 2026-10-19] | ✅ | 03 X-06 | A-Q0007 |
 | SB-03 | ADD | PA-01 | The ISO 20022 programme had no formal performance-test (PET) phase and no pre-production rehearsal; testing simulated sending messages and receiving success and failure responses for each path | #13 [CONF 2026-10-19] | ✅ | 03 PA-01 §6 | A-Q0013 |
 | SB-04 ⏳ **still open — not in 03 v4.2** | ADD | X-06, PA-02 (closes IB-01) | P1-type incident: a payment stuck in "pending in process". Splunk logs and payment records showed it was initiated and sent downstream, but the hub never received the response; downstream confirmed the payment was processed; the response was blocked in the messaging channel back to the hub. Containment: downstream team cleared the blocked messages and the affected payments recovered. Permanent fix: messaging channel optimised — **owner open (we vs channel team)**. No rollback involved | #13 [CONF 2026-10-19] | ✅ (owner of fix ❓) | 03 X-06 | A-Q0017; future S-029 |
-| SB-05 | ADD | 02 §1 | **Notice period: one month — standard answer from now on [CONF 2026-10-26]**; the "about 2 weeks" offer made on 2026-10-23 is withdrawn | #13 [CONF 2026-10-19]; #21 | ✅ | 02 §1 | A-Q0003 |
+| SB-05 | ADD | 02 §1 | **Contractual notice: two months. Wilson is currently in the resignation process, so availability ≈ one month after offer [CONF 2026-10-26, SD-08]**; the "about 2 weeks" offer made on 2026-10-23 is withdrawn | #13 [CONF 2026-10-19]; #21 | ✅ | 02 §1 | A-Q0003 |
 | SB-06 | CLARIFY | 02 §2 / TL-3, §6.3 | Reason for leaving GBD (Jul 2022): caring for parents (health). External wording stays "family reasons" | #13 [CONF 2026-10-19] | ✅ | 02 §6.3 | A-Q0022 |
 | SB-07 | CLARIFY | 02 §3 | PMP exam not yet scheduled (as of 2026-10-19) | #13 [CONF 2026-10-19] | ✅ | 02 §3 | A-Q0011 |
 | SB-08 | ADD | X-02 | MVP-prioritisation practice, extra step: if the parties still cannot agree, present the trade-offs and seek a decision from the appropriate senior stakeholder | #14 only (no CONF marker) | ❓ | 03 X-02 | A-Q0014 |
@@ -74,3 +74,87 @@
 
 ## G. Internal names
 - #1, #4, #5 use **CEW** throughout; #4 Q1 calls C360 "customer relationship management" (= SC-04). Interview Bank answers use "payment-initiation hub" / "customer-360 platform".
+
+---
+
+# Sub-batch C (IFS) — 2026-10-26
+**Sources:** #7 `IFS_模拟面试复盘_口语优化版_v7.docx` (finalised 2026-09-29) · #8 `Q2_WhyIFS_WhyLeave_优化版.docx` · #9 `previous…/interview of IFS Capital.docx` (2026-09-20/21) · #10 `previous…/HR questions.docx` · #11 / #12 (identical files, "lean team")
+**Baseline:** 03 v4.2 · 02 v3.1 · fact-check v2.5
+
+## H. New facts
+
+| Temp ID | Type | Related ID | Statement | Source | Proposed icon | Target § | Used in |
+|---|---|---|---|---|---|---|---|
+| **SI-01** | ADD | PA-11 (new sub-ID); closes **IB-04** | At VV Technology, **a lead who ran several teams, including the big-data team** [CONF 2026-10-26, SD-16], underperformed: gaps in planning and upward reporting, brought personal emotion into the team; his team blocked the project (business analysts waited for technical support for months); people disengaged and some left. Wilson gave facts, agreed clear goals and a review period with real support; goals not met → let him go; team moving again within weeks | #7 HRD Q1 (Wilson's own story, finalised 9/29) · **[CONF 2026-10-26] "是真实情况"** | ✅ | 03 PA-11 | A-Q0052 (parked block); future story |
+| **SI-02** | ADD | PA-11, PA-11.2 | VV-Life 0-to-1 approach: product and operations teams ran market research before building; small MVP; small steps; **every new feature behind a toggle** (pull back in minutes); architecture designed for iteration; some features missed and were fixed from feedback; core model worked and users stayed. Web + mobile APIs + backend on AWS; CI/CD and Splunk monitoring | #7 Q6, #9 CEO Q2 · **[CONF 2026-10-26] "是真实情况"** | ✅ | 03 PA-11 §6–§7 | A-Q0048 (parked) |
+| **SI-03** | ADD | PA-01 §6 | During MT/MX **coexistence, both sides (MT and MX) were reconciled** — mandatory, otherwise mismatched records could not be explained in compliance reporting. **Open: which team ran it and at which stage** (03 CF-N4 says the hub itself does not reconcile) | #7 Q8 follow-up, #9 CEO Q5 · **[CONF 2026-10-26]** (owner ❓) | ✅ fact / ❓ owner | 03 PA-01 §6 | A-Q0037, A-Q0051 (parked) |
+| SI-04 | ADD | X-02 | People practice: hire for the gap not the title; assign goal, deadline and boundary; regular 1:1s, early feedback; argue for fair pay; technical mentoring; **helped squad leads grow into managers** | #7 HRD Q7 | ❓ (last point especially) | 03 X-02 | A-Q0054 (not used) |
+| SI-05 | ADD | X-05 | Vendor practice: interview embedded vendor staff like hires; customer data stays in-house; contracts cover source-code ownership, documentation, exit clause, audit rights; track defects at delivery, repeat defects and production stability; daily stand-ups and weekly reviews with vendor teams | #7 JD-2 | ❓ | 03 X-05 | A-Q0020 (method only) |
+| SI-06 | ADD | X-02 | BAU vs project backlog reviewed with the business every two weeks | #7 JD-1 | ❓ | 03 X-02 | A-Q0058 (generalised) |
+| SI-07 | CLARIFY | PA-01 §3, skills | UOB tech list: Spring Boot ✅, Spring Batch ✅, Camel ✅, Linux ✅ — plus **shell, FTP, Kafka, gateway, Oracle, MySQL, Redis, MongoDB, Axway, OAuth/JWT, Spark/Hadoop, RAG / vector DB** (no anchors) | #9 Q3 | ❓ | skills inventory; 03 PA-01 §3 | A-Q0062 (only anchored items) |
+| SI-09 | ADD | PA-07 / X-04 | "AI writes the first pass on code and tests, so engineers review instead of type" — team practice? | #7 Q4 | ❓ | 03 PA-07 | A-Q0049 (not used) |
+
+## I. Conflicts / held numbers (from #7 Appendix A "five core numbers" and #8 / #9)
+
+| Temp ID | Type | Said / written | 03 says | Handling |
+|---|---|---|---|---|
+| SI-08 | WORDING | "built customer-facing super-apps and data platforms" (#8) | VV-Life local-life platform (PA-11); data platform PA-12 ⚠️ | Not used |
+| SI-10 | CONFLICT (= SA-06) | "I lead a team of about ten engineers at UOB" (#7 Q1, App. A) | 25 (15 + 10) | Not used |
+| SI-11 | HELD (HR-3 / HR-9) | "I've led teams of over a hundred engineers"; "built a team of 100+" (#7 HRD Q7, App. A; #9 Q5/Q6/CEO Q3) | VV 140 = total headcount, pending OQ-2.3 / B1 | Not used |
+| SI-12 | HELD (CF-11 / IB-09) | GBD "one platform covering payments and KYC across 200-plus regions" (#7 Q2/Q7, App. A; #8; #9 CEO Q6) | "regions" = live-usage claim; §0A row ⚠️ | Not used; "designed for multi-country coverage" |
+| SI-13 | HELD (§0A ⛔) | "A lean team handled millions of transactions a day"; "VV-Life grew to millions of transactions a day across several regions" (#7 App. A; #9 CEO Q2/Q3) | "multi-million daily transactions" ⛔ hold | Not used |
+| SI-14 | HELD (HR-10) | "AI Park covered 1,000+ car parks" (#9 CEO Q3) | ⛔ | Not used |
+| SI-15 | PROHIBITED (HR-1) | "18 years spanning **CTO**, Architect and PM roles" (#9 Q4) | No CTO title | Not used; trap in Q-0063 |
+| SI-16 | CONFLICT | Weakness: "no lending product experience"; experience incl. "quantitative trading" (#9 Q5) | PA-04 retail unsecured lending servicing + collections; PA-20 ⛔ | Not used |
+| SI-17 | CONFLICT (= SA-05, C3) | "review quality / efficiency +80% on our internal measure"; "new joiners 30–40% faster" (#7 Q3, App. A; #9 CEO Q1) | Senior review **time** cut by an **estimated** ~80%; C3 open | Corrected |
+| SI-18 | OWNERSHIP | "My team built an AI-assisted code-review service" (#9 CEO Q1) | O1 + O2 — Wilson designed and built it | Corrected to "I built" |
+| SI-19 | WORDING | "In a big bank, getting AI into production takes years of approvals" (#7 Q5) | PA-07 went live May 2026 after formal approval | Reworded in A-Q0008 |
+| SI-20 | CONFLICT (= SC-04) | C360 = "regional customer relationship management" (#7 Q1, #9 Q1) | Customer-360 platform | Not used |
+
+## J. Not stored (by design)
+- Salary figures and floor (#7 HRD Q5) — personal; strategy only.
+- IFS company specifics and interviewer names (CEO / HRD), brands, markets — application prep material, not career facts.
+
+---
+
+# Sub-batch D (general + other interviews) — 2026-10-26
+**Sources:** D1 transcripts — #16 Visa recruiter (2026-05-13) · #18 Cloudera screen (2026-07-10) · #19 BoA tech (2026-07-21) · #20 SGX tech (2026-08-11) · D2 — #15 `previous…/questionaires.docx` (internal cards-transfer script skipped by decision)
+**Baseline:** 03 v4.2 · 02 v3.1 · fact-check v2.5
+
+## K. New facts
+
+| Temp ID | Type | Related ID | Statement | Source | Proposed icon | Target § | Used in |
+|---|---|---|---|---|---|---|---|
+| **SD-01** | ADD | X-02 (closes **IB-03**) | Conflict: offshore developers in India and Singapore business users clashed because requirements changed often and expectations were unclear. Wilson introduced a requirement-clarification workshop before each sprint (BA, dev lead, QA, business users) to agree acceptance criteria and scope, plus a change-impact assessment for late changes. Escalations fell, trust improved, sprint delivery became more stable | #15 Q2 · **[CONF 2026-10-26] "真实事件"** | ✅ | 03 X-02 / PA-01 | A-Q0014 (parked); future story |
+| **SD-02** | ADD | X-06 | Incident command practice: single point of coordination in the first 15 minutes; war-room channel; hold-or-fail-over decision within 10 minutes; engineers assigned to logs / database and messaging / downstream; hourly sync; first stakeholder update within 30 minutes, then hourly; DevOps or security pulled in if not resolved within an hour; high-severity issues resolved within half a day; blameless postmortem within 48 hours | #15 · **[CONF 2026-10-26]** | ✅ | 03 X-06 | A-Q0017 (parked) |
+| SD-03 | ADD | PA-07 / PA-08 | Used AI to refactor legacy middleware code (extracting repeated patterns into reusable APIs); prototyped automated test generation from user stories | #15 | ❓ | 03 PA-07 / new | A-Q0076 (parked) |
+| SD-04 | ADD | PA-07 | Researched inward / outward ISO 20022 payment flows and reports; proposed AI-agent ideas to his manager (2025); department formed an AI team from May 2026 — Wilson is a member and writes code | #20 SGX (spoken) | ❓ | 03 PA-07 | A-Q0072 (not used) |
+| **SD-05** | ADD | X-01, PA-01 | Data migration included **entitlement data** — users, companies, groups, roles (a user can belong to several groups across companies); each batch approved in the old system → exported as JSON → validated record by record on the new side against related applications (user accounts, remittance) → loaded by Spring Batch jobs. #15 also: the hub supported migration of payment data and entitlement data from legacy | #20 SGX, #15 · **[CONF 2026-10-26] "真实事件"** | ✅ | 03 X-01 / PA-01 | A-Q0073 (parked) |
+| SD-06 | ADD | X-02 | Two squads, each with a squad lead; daily stand-up 20–30 min; two-week sprints; retrospectives | #19 BoA (spoken) | ❓ | 03 X-02 | A-Q0069 (generic) |
+| SD-07 | CLARIFY (→ IB-11) | PA-03.2 | "JUnit coverage at least 90% / 90+%"; third-party company produces penetration-test reports; Jenkins deploys JAR; Aldon (Rocket) manages packages | #19 BoA (spoken) | ❓ | 03 PA-03 | A-Q0068 (number not used) |
+
+## L. Conflicts / risky wording
+
+| Temp ID | Type | Said / written | 03 / 02 says | Handling |
+|---|---|---|---|---|
+| SD-08 | RESOLVED | Notice "2 months, can reduce to 1" (Visa, Cloudera) | — | Contract 2 months; resigning; ≈1 month → SB-05 updated |
+| SD-09 | CONFLICT | "Moved to Singapore 6 years ago" (Cloudera, 2026-07) | VV Technology (Singapore) from Apr 2019 | Use the real year |
+| SD-10 | CONFLICT + positioning rule | "I started my career as a (big) data engineer, about two years" (BoA, SGX) | 02: Renren Senior R&D Engineer 2008–12; standing rule: not positioned as a big-data engineer | Not used |
+| **SD-11** | **HIGH RISK** (PA-20 ⛔, TL-4, OQ-1.8) | Cloudera saw the Pureland consultant role on LinkedIn; Wilson said he still consults and would stop on joining | Disclosure plan not decided | **Decide in Resume Project before next interview:** still active? disclosed to / approved by UOB? LinkedIn / resume alignment. Q-0066 has a template only |
+| SD-12 | PROHIBITED / CONFLICT | #15 post-interview intro (SCB WRB, 2026-08-28): "technical architect" as title; hub does "routing" (SA-02); Pureland "VWAP… OTC-adjacent" advisory (⛔ PA-20); "one served over ten million daily users" (⛔ FU-1); "Flink-based real-time profiling with causal inference" (⚠️ CF-07); "GenAI code-review agent using Spring AI" (03: Spring Boot + headless Claude Code) | — | Not used |
+| SD-13 | CONFLICT | #15 intro: VV "100+ tech team" (HR-3); "due to Covid the companies moved to China" (02: CEO moved team; Wilson stayed for family); "angel round to Series B & C"; C360 customers = "small & middle merchant clients" (PA-05: wealth cross-sell & client management); "Java/Python" strengths (Python unanchored) | — | Not used |
+| SD-14 | NUMBER (X-04 rule) | "roughly half of my time is technical" (#15); "half" (SGX) | X-04: never claim a coding-time share | Trap added |
+| SD-15 | NUMBER / WORDING | "UOB IT department has 3000+ employees"; "UOB is still a local bank" (#15) | Not in 03; inaccurate / disparaging | Not used |
+| SD-16 | RESOLVED | SI-01 person: "team leader" (#7) vs "big-data team lead" (#15) | — | [CONF 2026-10-26]: a lead of several teams incl. the big-data team → SI-01 updated |
+| SD-17 | NUMBER | "That eliminates 60% of causes" (#15 latency) | Invented statistic | Not used |
+| SD-18 | CLARIFY (→ SI-07) | UOB uses an SSL hardware gateway and Axway API gateway with JWT (BoA, spoken) | No anchor | Not used |
+| SD-19 | CONFLICT | Baidu high-concurrency system on Spring Cloud with Redis and Kafka (Cloudera, spoken) | PA-17: Dubbo, Resin, MongoDB, Redis, ZooKeeper, Solr | Not used |
+
+## M. Not stored (by design)
+- Salary figures (Visa, Cloudera); citizenship plans and remarks about other countries / age (Cloudera); personal relationship behind the Pureland role (Cloudera).
+
+## N. Decision 2026-10-26 — Pureland (resolves SD-11, OQ-1.8, TL-4)
+
+| Temp ID | Type | Related ID | Decision / statement | Source | Target § |
+|---|---|---|---|---|---|
+| **SD-20** | **REMOVE + CLARIFY** | PA-20, 02 §2 row 2, 02 §6.2, TL-4, OQ-1.8, SD-11 | **Remove Pureland Holding (Jewelake) from the work history.** The advisory arrangement **ended before Wilson joined UOB (Oct 2022)**; no outside work now. LinkedIn / resume alignment: **not now** (Wilson's decision). Note for the record: in the Cloudera screen (2026-07-10) Wilson said he was "still the consultant" — inconsistent with this decision; interview answer is "it ended before I joined UOB; my profile is out of date" | [CONF 2026-10-26] | 02 §2 (row 2 → end date before Oct 2022 or removed), §6.2; 03 PA-20 → retire; fact-check TL-4 / OQ-1.8 → close; 02 positioning |
